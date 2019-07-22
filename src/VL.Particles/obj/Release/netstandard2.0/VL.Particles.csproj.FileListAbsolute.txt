@@ -1,0 +1,8 @@
+C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Particles\bin\Release\netstandard2.0\VL.Particles.deps.json
+C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Particles\bin\Release\netstandard2.0\VL.Particles.dll
+C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Particles\bin\Release\netstandard2.0\VL.Particles.pdb
+C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Particles\obj\Release\netstandard2.0\VL.Particles.csproj.CoreCompileInputs.cache
+C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Particles\obj\Release\netstandard2.0\VL.Particles.AssemblyInfoInputs.cache
+C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Particles\obj\Release\netstandard2.0\VL.Particles.AssemblyInfo.cs
+C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Particles\obj\Release\netstandard2.0\VL.Particles.dll
+C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Particles\obj\Release\netstandard2.0\VL.Particles.pdb
