@@ -2,7 +2,7 @@
 <Document xmlns:p="property" Id="NSHn5RAYWEfOnWuKTd4qzX" LanguageVersion="2019.1.0-0425-gef454d89b2" Version="0.128">
   <NugetDependency Id="B6zchGM9hB1OA5EW4Z34wy" Location="VL.CoreLib" Version="0.79.17-g63a3d4ba77" />
   <Patch Id="LQ9BabjDMqtPrFYKYbcTgS">
-    <Canvas Id="GaftI3s04PIPiiKn58MwlG" CanvasType="FullCategory">
+    <Canvas Id="GaftI3s04PIPiiKn58MwlG" DefaultCategory="VL.Particles" CanvasType="FullCategory">
       <Canvas Id="ErbMwJm6zlQQPn2iK0awNl" Name="Utils" Position="214,352">
         <Canvas Id="NmtPZ8BwU6VPKsdW1B4Z2U" Name="Orientation" Position="304,250">
           <!--
@@ -495,7 +495,7 @@
               <ControlPoint Id="HEm06TmL9RQNN8rdE9bF6P" Bounds="761,307" />
               <Link Id="MGByujgq5W6NJEuq2bcXK9" Ids="I6XO4jsCBQaMxVrxafIBLY,HEm06TmL9RQNN8rdE9bF6P" IsHidden="true" />
               <Node Bounds="760,334,64,13" Id="O4rahNGwUGINz51ngByTBP">
-                <p:NodeReference LastCategoryFullName="Utils.Random" LastSymbolSource="VL.Particles.vl">
+                <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Random" LastSymbolSource="VL.Particles.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Random (Centered)" />
                 </p:NodeReference>
@@ -722,7 +722,7 @@
                   <Pin Id="MyBvHGMdq22PZywxgb7D9j" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="597,379,89,13" Id="LAeAoGHm89ON6QGCkiD7Lx">
-                  <p:NodeReference LastCategoryFullName="Utils.Random" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Random" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GaussianRandom" />
                   </p:NodeReference>
@@ -796,7 +796,7 @@
               </p:NodeReference>
               <Patch Id="Fd8y64UlldSOgJrqPJKrFT">
                 <Node Bounds="507,423,89,13" Id="KQlukWJAaAKOTBxefcYEI4">
-                  <p:NodeReference LastCategoryFullName="Utils.Random" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Random" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GaussianRandom" />
                   </p:NodeReference>
@@ -827,7 +827,7 @@
                   <Pin Id="CVjeRHmsNC9NFZPQ7jUvBz" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="649,424,89,13" Id="RWNoJFGjfkrOKeVSaZRyvq">
-                  <p:NodeReference LastCategoryFullName="Utils.Random" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Random" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GaussianRandom" />
                   </p:NodeReference>
@@ -876,7 +876,7 @@
                 <Link Id="QuDA2J5ZknjPwer2sh50Ue" Ids="NTGFSTIHRVGObDhmvdHdrM,REYE0THXlu6QBzYJCJvObA" />
                 <Link Id="LMzMm4fhEsqNgrqegtP0Z2" Ids="U2B8OLLzq7iNdskpO1uNK9,TsvV42QbHFRQc7Y9w1Cz97" />
                 <Node Bounds="799,424,89,13" Id="NImaFpR3OnnPnnh5WGW77W">
-                  <p:NodeReference LastCategoryFullName="Utils.Random" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Random" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GaussianRandom" />
                   </p:NodeReference>
@@ -918,7 +918,7 @@
               </p:NodeReference>
               <Patch Id="E4LRuuIRXC0MDpcTuyRcOx">
                 <Node Bounds="551,375,89,13" Id="U0K20uNQcRmLc2ke2196qu">
-                  <p:NodeReference LastCategoryFullName="Utils.Random" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Random" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GaussianRandom" />
                   </p:NodeReference>
@@ -950,7 +950,7 @@
                   <Pin Id="HNhwwU2DuDLPVtldcdp5Zm" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="693,376,89,13" Id="Kk7JrmlQteAPoBnaV7Bre8">
-                  <p:NodeReference LastCategoryFullName="Utils.Random" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Random" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GaussianRandom" />
                   </p:NodeReference>
@@ -1001,7 +1001,7 @@
                 <Link Id="UyQqG3RTZ5EOr6nUwT4aph" Ids="KTwmT5BXbgqMq1Jrw8Ns5p,M3ik1zGXBXwNgYlujritA2" />
                 <Link Id="SShUyWjczSNLqItIavWoIp" Ids="SdsuaBGbq8rL57xvbqAPip,FohgEztvEFPOsKIRnQaITK" />
                 <Node Bounds="843,376,89,13" Id="KE0pqsVvumIM4yyw5L1RrF">
-                  <p:NodeReference LastCategoryFullName="Utils.Random" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Random" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GaussianRandom" />
                   </p:NodeReference>
@@ -1017,7 +1017,7 @@
                 <Link Id="GOvJqg6CgqTLY6oDE7WwYw" Ids="KK7HwzorMgMNn2SDUbqU81,T1M3VihRbLnOpOF9CrF2UF" />
                 <Link Id="EoDEQ8CfYNVNGv9wlHeaeW" Ids="QNYqSA57rWRLJu6WlAkrzc,THVPQJQeLPMNAPK06wjpJW" />
                 <Node Bounds="993,376,89,13" Id="UHpWsYFh9UuPNSkiv57IkG">
-                  <p:NodeReference LastCategoryFullName="Utils.Random" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Random" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GaussianRandom" />
                   </p:NodeReference>
@@ -1349,7 +1349,7 @@
                   <Pin Id="AbAmCXj0B2AQSIPgN5lw6N" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="430,427,226,13" Id="J0fbhInWMChM9mEySxTTQJ">
-                  <p:NodeReference LastCategoryFullName="Utils.Simplex" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Simplex" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SimplexAdvanced" />
                   </p:NodeReference>
@@ -1379,7 +1379,7 @@
                 <ControlPoint Id="NQ5Tt4Y6EDNMnlqzQCWEH9" Bounds="992,390" />
                 <ControlPoint Id="A0CJ47NsXWPOQ1vGaQh02b" Bounds="1036,404" />
                 <Node Bounds="783,426,226,13" Id="PTMT3KTl2aaOpBQ6EiRyzz">
-                  <p:NodeReference LastCategoryFullName="Utils.Simplex" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Simplex" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SimplexAdvanced" />
                   </p:NodeReference>
@@ -1398,7 +1398,7 @@
                 <ControlPoint Id="MUpFlrOEkfWNpioEttPfts" Bounds="1368,385" />
                 <ControlPoint Id="PeyulnTv5Z6K9Z2RY2DczO" Bounds="1401,405" />
                 <Node Bounds="1153,427,226,13" Id="VlCIg0hAbVxPC2UwyhDZIJ">
-                  <p:NodeReference LastCategoryFullName="Utils.Simplex" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Simplex" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SimplexAdvanced" />
                   </p:NodeReference>
@@ -1825,7 +1825,7 @@
                   <Pin Id="Tra2PN8W96TOdQQcpLNFff" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="446,840,226,13" Id="VkQdVQ6b7snOmFC3y1fjK1">
-                  <p:NodeReference LastCategoryFullName="Utils.Simplex" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Simplex" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SimplexAdvanced" />
                   </p:NodeReference>
@@ -1856,7 +1856,7 @@
                 <ControlPoint Id="I3lZdE3neR6Oh8FCrIpYTN" Bounds="1009,801" />
                 <ControlPoint Id="KFXKeyQ1cqWPAeAdeqBURB" Bounds="1053,815" />
                 <Node Bounds="800,837,226,13" Id="JCndUsh8xFaPbfRnFNm3rD">
-                  <p:NodeReference LastCategoryFullName="Utils.Simplex" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Simplex" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SimplexAdvanced" />
                   </p:NodeReference>
@@ -2148,7 +2148,7 @@
                   <Pin Id="UMb7O773GjhMqD3vgsHf6u" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="337,496,226,13" Id="A2yNESZ50SWLnvSRdr3uiJ">
-                  <p:NodeReference LastCategoryFullName="Utils.Simplex" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Simplex" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SimplexAdvanced" />
                   </p:NodeReference>
@@ -2181,7 +2181,7 @@
                 <ControlPoint Id="OahRnETlA7yMZC5uG5RLKZ" Bounds="877,455" />
                 <ControlPoint Id="MFG1clqCuM8QXzb20ZZsPU" Bounds="921,469" />
                 <Node Bounds="668,491,226,13" Id="I3j6LBRBIGHMKRj4Im0pY5">
-                  <p:NodeReference LastCategoryFullName="Utils.Simplex" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Simplex" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SimplexAdvanced" />
                   </p:NodeReference>
@@ -2200,7 +2200,7 @@
                 <ControlPoint Id="HQoVDuofOpYQJVJXIjK6TE" Bounds="1224,449" />
                 <ControlPoint Id="TTcPPMHukYqMjG3WYWrNlJ" Bounds="1268,463" />
                 <Node Bounds="1009,491,226,13" Id="O5YxmByIVA2OEOppio42PV">
-                  <p:NodeReference LastCategoryFullName="Utils.Simplex" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Simplex" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SimplexAdvanced" />
                   </p:NodeReference>
@@ -2396,7 +2396,7 @@
                 <ControlPoint Id="VVjjm5LXlULO17SFxlrdLQ" Bounds="1555,450" />
                 <ControlPoint Id="Km5etY0PsSuLkqHfEqL9RC" Bounds="1599,464" />
                 <Node Bounds="1340,492,226,13" Id="RiwGEgkPykCQaQHTLHEg6W">
-                  <p:NodeReference LastCategoryFullName="Utils.Simplex" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Simplex" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SimplexAdvanced" />
                   </p:NodeReference>
@@ -3556,7 +3556,7 @@
                       <Patch Id="NY76vDl1uGVOWiPcFssDMI" Name="Update" ManuallySortedPins="true" />
                       <Patch Id="Fz5N8d1xxDkLVkkLynsXwm" Name="Dispose" ManuallySortedPins="true" />
                       <Node Bounds="286,306,362,19" Id="JIfVVXpztTcMl8nZTWlvis">
-                        <p:NodeReference LastCategoryFullName="PostFX.FadeInOut" LastSymbolSource="VL.Particles.vl">
+                        <p:NodeReference LastCategoryFullName="VL.Particles.PostFX.FadeInOut" LastSymbolSource="VL.Particles.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="ProcessAppFlag" Name="ApplyFadeInOut" />
                           <PinReference Kind="InputPin" Name="Relative to Life Time" />
@@ -3924,7 +3924,7 @@
                           <Patch Id="GuJmxbZYlABMeBBMXzDcT4" Name="Update" ManuallySortedPins="true" />
                           <Patch Id="API0sNHE4PPQby88Aqwqvh" Name="Dispose" ManuallySortedPins="true" />
                           <Node Bounds="286,343,183,19" Id="PPTAye84gQpPxSwWsfKNW1">
-                            <p:NodeReference LastCategoryFullName="PostFX.Attractor (PostFX)" LastSymbolSource="VL.Particles.vl">
+                            <p:NodeReference LastCategoryFullName="VL.Particles.PostFX.Attractor (PostFX)" LastSymbolSource="VL.Particles.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="Attractor" />
                             </p:NodeReference>
@@ -4357,7 +4357,7 @@
                         <Patch Id="MMhQu5vj2yeNwjK1BMyMI6" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="IsfzRo929WeL5Is6fMOdnN" Name="Then" ManuallySortedPins="true" />
                         <Node Bounds="486,969,67,19" Id="JVY8LjVum7qLWokqDJt9WA">
-                          <p:NodeReference LastCategoryFullName="Utils.Random" LastSymbolSource="VL.Particles.vl">
+                          <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Random" LastSymbolSource="VL.Particles.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="Randomize (Centered)" />
                           </p:NodeReference>
@@ -4380,7 +4380,7 @@
                         <Patch Id="FljOwaaC0EoMwXY0Yc4BKF" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="IT7N9N0k3yUMhDBLHXWWX9" Name="Then" ManuallySortedPins="true" />
                         <Node Bounds="621,969,67,19" Id="ACxqtxrTlOcP4oICVTMIpV">
-                          <p:NodeReference LastCategoryFullName="Utils.Random" LastSymbolSource="VL.Particles.vl">
+                          <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Random" LastSymbolSource="VL.Particles.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="Randomize (Centered)" />
                           </p:NodeReference>
@@ -4393,7 +4393,7 @@
                       <ControlPoint Id="LwyWcXZ0YT5LJ57XvCukv1" Bounds="623,944" Alignment="Top" />
                     </Node>
                     <Node Bounds="486,833,77,19" Id="VzhA8nZNcOuQOFQxKBJzKf">
-                      <p:NodeReference LastCategoryFullName="Component.Emitter.Utils" LastSymbolSource="VL.Particles.vl">
+                      <p:NodeReference LastCategoryFullName="VL.Particles.Component.Emitter.Utils" LastSymbolSource="VL.Particles.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="PosScattering" />
                       </p:NodeReference>
@@ -4473,7 +4473,9 @@
                 <Pin Id="QyukTaL5BUGNaVL1s3VhCC" Name="Vel Randomizatio Enable" Kind="InputPin" />
                 <Pin Id="MhHtaYNQGs9LgbiDaXdl9u" Name="Vel Randomization Size" Kind="InputPin" />
                 <Pin Id="FNKx0W0OPKQOzmvP60Z2cI" Name="Particles" Kind="OutputPin" Bounds="459,649" />
-                <Link Id="EpcxIDUHRP9LTDFhd6x8kj" Ids="CJeUUF8WVzqOhbTcMTts7B,GAhhcn3jBJWLapjNbS4hrx" />
+                <ControlPoint Id="Cb7v57ra2l6N45xwQfVAC1" Bounds="276,977" />
+                <Link Id="ExAOmIgEL0gLkW0UO9s9YG" Ids="OMcYOHps2jqOAmewMV6eq0,Cb7v57ra2l6N45xwQfVAC1" IsHidden="true" />
+                <Link Id="HHZYVosBhX6Or1Np0HXbvJ" Ids="Cb7v57ra2l6N45xwQfVAC1,GAhhcn3jBJWLapjNbS4hrx" />
               </Patch>
             </Node>
             <!--
@@ -5198,7 +5200,7 @@
                   <ControlPoint Id="IkjwIJBckG7LkjCzSaRROe" Bounds="545,389" />
                   <ControlPoint Id="Ch7ZHWgByQhMbYXa0LSaKm" Bounds="505,516" />
                   <Node Bounds="401,260,89,19" Id="V7GNLDa4hxeMSanHDXmteE">
-                    <p:NodeReference LastCategoryFullName="Utils.Animation" LastSymbolSource="VL.Particles.vl">
+                    <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Animation" LastSymbolSource="VL.Particles.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="SpeedIntegrator" />
                     </p:NodeReference>
@@ -5491,7 +5493,7 @@
                         <Patch Id="S403OBLXKiLMnEDY8OYFEM" Name="Update" ManuallySortedPins="true" />
                         <Patch Id="AClqFZHvdsWMfZQXSoymJs" Name="Dispose" ManuallySortedPins="true" />
                         <Node Bounds="371,824,73,26" Id="UNBDx0rqEjgQZhpvp179o2">
-                          <p:NodeReference LastCategoryFullName="Core.Particle" LastSymbolSource="VL.Particles.vl">
+                          <p:NodeReference LastCategoryFullName="VL.Particles.Core.Particle" LastSymbolSource="VL.Particles.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="SetBornTime" />
                           </p:NodeReference>
@@ -5524,10 +5526,12 @@
                   <Pin Id="GWnwnZRDr50O2ItShX8MGv" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="358,257,166,19" Id="SjMaUnMSSbfLaOsH0JLgP8">
-                  <p:NodeReference LastCategoryFullName="Core" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="Core.Particle" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="Particle" />
+                    <CategoryReference Kind="ClassType" Name="Particle" />
+                    <Choice Kind="OperationCallFlag" Name="Join" />
                   </p:NodeReference>
+                  <Pin Id="Pa5xiJjfBVQNEQE1AVAkYT" Name="Input" Kind="InputPin" />
                   <Pin Id="DDDiJklbP9VP8XjA6dmAgw" Name="Pos" Kind="InputPin" />
                   <Pin Id="Ah7251e8rlNN8xtqXlAHbE" Name="vel" Kind="InputPin" />
                   <Pin Id="EVna4xuvfSuPsm2NXnCWRl" Name="Acc" Kind="InputPin" />
@@ -5539,14 +5543,14 @@
                   <Pin Id="Fm2aZnpgxW9Mf7K3rxPGNZ" Name="Tag" Kind="InputPin" />
                   <Pin Id="IQ2gOAWbuKfMzurlfzGzbB" Name="Output" Kind="StateOutputPin" />
                 </Node>
-                <ControlPoint Id="BL0k0kN3E0JNgTgBdgmQ1z" Bounds="360,69" />
-                <ControlPoint Id="UGG8oLwAtxRMiZkGVC38uh" Bounds="380,88" />
-                <ControlPoint Id="EhPOB5zBsqmMIQdwhhD36J" Bounds="420,135" />
-                <ControlPoint Id="VglgMxBJaFCM5EQh9hwcnW" Bounds="440,153" />
-                <ControlPoint Id="PuRKXPnagqXQNn0d9sRgSL" Bounds="460,170" />
-                <ControlPoint Id="Fp1N0xbnyCqPz32wWZQ05P" Bounds="481,190" />
-                <ControlPoint Id="CPysmfXFIeCL5Uri6C1cKo" Bounds="501,209" />
-                <ControlPoint Id="JxA4OsNvSwPNAigWyHkC3n" Bounds="521,229" />
+                <ControlPoint Id="BL0k0kN3E0JNgTgBdgmQ1z" Bounds="379,69" />
+                <ControlPoint Id="UGG8oLwAtxRMiZkGVC38uh" Bounds="399,88" />
+                <ControlPoint Id="EhPOB5zBsqmMIQdwhhD36J" Bounds="439,135" />
+                <ControlPoint Id="VglgMxBJaFCM5EQh9hwcnW" Bounds="459,153" />
+                <ControlPoint Id="PuRKXPnagqXQNn0d9sRgSL" Bounds="479,170" />
+                <ControlPoint Id="Fp1N0xbnyCqPz32wWZQ05P" Bounds="500,190" />
+                <ControlPoint Id="CPysmfXFIeCL5Uri6C1cKo" Bounds="520,209" />
+                <ControlPoint Id="JxA4OsNvSwPNAigWyHkC3n" Bounds="540,229" />
                 <Pad Id="Qxa1FvNbIJnN0jQFC72jke" SlotId="K4EichqdjZUMgKEaCAXb8q" Bounds="265,556">
                   <p:ValueBoxSettings />
                 </Pad>
@@ -5623,10 +5627,10 @@
                   <Pin Id="NgcPWRAo7byOj3AO3TEVH4" Name="Result" Kind="OutputPin" />
                 </Node>
                 <ControlPoint Id="F6RaTYy603cNrPq5lpPO87" Bounds="312,745" />
-                <Pad Id="S0ZFyin8wJNNUK2kpaSf0B" SlotId="C2twp6ysdIlOVaKYoj2EP1" Bounds="144,49">
+                <Pad Id="S0ZFyin8wJNNUK2kpaSf0B" SlotId="C2twp6ysdIlOVaKYoj2EP1" Bounds="174,124">
                   <p:ValueBoxSettings />
                 </Pad>
-                <Node Bounds="61,87,87,19" Id="HB2aTdQDvWrNiFGIusPKDF">
+                <Node Bounds="91,162,87,19" Id="HB2aTdQDvWrNiFGIusPKDF">
                   <p:NodeReference LastCategoryFullName="Primitive.TypeHelpers" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="ConstrainTypes" />
@@ -5636,9 +5640,9 @@
                   <Pin Id="AQbKmQQw37mPhO0bDGkUKk" Name="Input 3" Kind="InputPin" />
                   <Pin Id="GfRM29oc65SNQEeAupJaxd" Name="Input 4" Kind="InputPin" />
                 </Node>
-                <ControlPoint Id="NTVYRVtu0ORPcw8iJJofgL" Bounds="63,49" />
-                <Pad Id="AyFDmaWMqP4NpQ0UyMcTLr" SlotId="C2twp6ysdIlOVaKYoj2EP1" Bounds="338,104" />
-                <ControlPoint Id="A5CORUd1ShXL2GPC79oupf" Bounds="400,110" />
+                <ControlPoint Id="NTVYRVtu0ORPcw8iJJofgL" Bounds="93,124" />
+                <Pad Id="AyFDmaWMqP4NpQ0UyMcTLr" SlotId="C2twp6ysdIlOVaKYoj2EP1" Bounds="357,104" />
+                <ControlPoint Id="A5CORUd1ShXL2GPC79oupf" Bounds="419,110" />
                 <ControlPoint Id="FeeFvDFjKAJLIPEJSd76rH" Bounds="253,319" />
                 <ControlPoint Id="FtOfI6nHS32OXj7UUYXz1y" Bounds="455,344" />
                 <ControlPoint Id="BuKyukQBwKdOvYG7etGBNM" Bounds="743,375" />
@@ -5804,7 +5808,7 @@
                         <Patch Id="Q6AjYw4LzT0PUbUfB013XC" Name="Update" ManuallySortedPins="true" />
                         <Patch Id="OZ5uSlnljriPHVvrID8AmL" Name="Dispose" ManuallySortedPins="true" />
                         <Node Bounds="444,750,73,26" Id="SOUdbfmii6HPFYxhptYLvs">
-                          <p:NodeReference LastCategoryFullName="Core.Particle" LastSymbolSource="VL.Particles.vl">
+                          <p:NodeReference LastCategoryFullName="VL.Particles.Core.Particle" LastSymbolSource="VL.Particles.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="SetBornTime" />
                           </p:NodeReference>
@@ -5899,7 +5903,7 @@
                 <Pad Id="Sw4fl2sXYYMPXqNznDaJzU" SlotId="G35ZFuLkHjoLdNAJbvkBHF" Bounds="412,680" />
                 <ControlPoint Id="JhwosWDR0zzOG7X9bkGRPy" Bounds="398,343" />
                 <Node Bounds="420,460,118,19" Id="T2NRfJboaBNO9h5ZEIg91r">
-                  <p:NodeReference LastCategoryFullName="Utils.ParticlesGroup" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.ParticlesGroup" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetParticlesGroupByID" />
                   </p:NodeReference>
@@ -5930,7 +5934,7 @@
                   <Pin Id="TIRAqZnU4E5Nay3i6L6mqH" Name="Success" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="476,495,70,26" Id="UF0oVyNgZZDODqFQ4dGC46">
-                  <p:NodeReference LastCategoryFullName="Core.ParticlesGroup" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Core.ParticlesGroup" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetParticles" />
                   </p:NodeReference>
@@ -6191,7 +6195,7 @@
                               <Pin Id="IntpWHkwUprMIZzPYDdxim" Name="Output" Kind="StateOutputPin" />
                             </Node>
                             <Node Bounds="559,577,67,19" Id="PvThGSI339iMUoXkYMQP3Q">
-                              <p:NodeReference LastCategoryFullName="Utils.Random" LastSymbolSource="VL.Particles.vl">
+                              <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Random" LastSymbolSource="VL.Particles.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="Randomize (Centered)" />
                               </p:NodeReference>
@@ -6453,7 +6457,7 @@
                               <Pin Id="ELA7YNq0WEUNhUN3NkBy76" Name="Output" Kind="StateOutputPin" />
                             </Node>
                             <Node Bounds="484,569,67,19" Id="JUFLTQ6IZ7APP6KLlVEOYS">
-                              <p:NodeReference LastCategoryFullName="Utils.Random" LastSymbolSource="VL.Particles.vl">
+                              <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Random" LastSymbolSource="VL.Particles.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="Randomize (Centered)" />
                               </p:NodeReference>
@@ -6653,7 +6657,7 @@
                         <Patch Id="RI6MglVhHnNNKC1x3O2CJQ" Name="Update" ManuallySortedPins="true" />
                         <Patch Id="COqLn3KZjjRLXFjBw9jLTi" Name="Dispose" ManuallySortedPins="true" />
                         <Node Bounds="444,750,73,26" Id="FEpMb3F7QLKOr1CDogKFWW">
-                          <p:NodeReference LastCategoryFullName="Core.Particle" LastSymbolSource="VL.Particles.vl">
+                          <p:NodeReference LastCategoryFullName="VL.Particles.Core.Particle" LastSymbolSource="VL.Particles.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="SetBornTime" />
                           </p:NodeReference>
@@ -6787,7 +6791,7 @@
                   <ControlPoint Id="UK9YQp8b58TQVeqCgKX9kf" Bounds="448,480" Alignment="Top" />
                 </Node>
                 <Node Bounds="654,417,118,19" Id="Addqoevg1mRMA1o0nt5tb3">
-                  <p:NodeReference LastCategoryFullName="Utils.ParticlesGroup" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Utils.ParticlesGroup" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetParticlesGroupByID" />
                   </p:NodeReference>
@@ -6818,7 +6822,7 @@
                   <Pin Id="GH7QNAgQKN8PxKY4LNwwRW" Name="Success" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="710,452,70,26" Id="P74DA0MJLbgLaObm4FxMqZ">
-                  <p:NodeReference LastCategoryFullName="Core.ParticlesGroup" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Core.ParticlesGroup" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetParticles" />
                   </p:NodeReference>
@@ -6966,7 +6970,7 @@
                     <Patch Id="F9QKTS384NxNA9OpV5H3Tk" Name="Update" ManuallySortedPins="true" />
                     <Patch Id="FNxvp3UTDfrLqSA4bWWtFI" Name="Dispose" ManuallySortedPins="true" />
                     <Node Bounds="270,324,184,19" Id="EmXkZijPY6kMBdNkmaX1pI">
-                      <p:NodeReference LastCategoryFullName="Component.Integrator.Utils" LastSymbolSource="VL.Particles.vl">
+                      <p:NodeReference LastCategoryFullName="VL.Particles.Component.Integrator.Utils" LastSymbolSource="VL.Particles.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationNode" Name="EulerIntegration" />
                       </p:NodeReference>
@@ -7139,7 +7143,7 @@
                     <Patch Id="UWmnkxZIqkxOHXimCJhUJD" Name="Update" ManuallySortedPins="true" />
                     <Patch Id="KEePDxt3Nw1OHrcJ9yYfV0" Name="Dispose" ManuallySortedPins="true" />
                     <Node Bounds="321,272,184,19" Id="L2ieRaR2AH1QeAU4zSUsra">
-                      <p:NodeReference LastCategoryFullName="Component.Integrator.Utils" LastSymbolSource="VL.Particles.vl">
+                      <p:NodeReference LastCategoryFullName="VL.Particles.Component.Integrator.Utils" LastSymbolSource="VL.Particles.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationNode" Name="VerletIntegration" />
                       </p:NodeReference>
@@ -7182,9 +7186,10 @@
                   <ControlPoint Id="ItNYJFLlRouQIJoijqRoPI" Bounds="295,189" Alignment="Top" />
                 </Node>
                 <Node Bounds="431,99,74,26" Id="S7sfIB9OtkaOyQyyshjwRR">
-                  <p:NodeReference LastCategoryFullName="Core.ParticlesSystem" LastSymbolSource="VL.Particles.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Particles.Core.PSystemContext" LastSymbolSource="VL.Particles.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetClock" />
+                    <CategoryReference Kind="ClassType" Name="PSystemContext" NeedsToBeDirectParent="true" />
                   </p:NodeReference>
                   <Pin Id="NHftE8ea1zOO43TpyucSBN" Name="Input" Kind="StateInputPin" />
                   <Pin Id="GXYLVYFedn8LBUYujm7oHh" Name="Output" Kind="StateOutputPin" />
@@ -8074,7 +8079,7 @@
                         <Pin Id="Ic91p4Ph7wTMSr5xz3DOSu" Name="Pos" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="359,522,69,19" Id="OC9Wfd13LSMLFStEqtvRns">
-                        <p:NodeReference LastCategoryFullName="Component.Modifier.Behaviour.Utils" LastSymbolSource="VL.Particles.vl">
+                        <p:NodeReference LastCategoryFullName="VL.Particles.Component.Modifier.Behaviour.Utils" LastSymbolSource="VL.Particles.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationNode" Name="PointTarget (Math)" />
                         </p:NodeReference>
@@ -8084,7 +8089,7 @@
                         <Pin Id="QWeJNRwULIyL3GckAHLbgo" Name="Output" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="285,608,153,19" Id="FSFN699PCSnNN1h222FEcQ">
-                        <p:NodeReference LastCategoryFullName="Utils" LastSymbolSource="VL.Particles.vl">
+                        <p:NodeReference LastCategoryFullName="VL.Particles.Utils" LastSymbolSource="VL.Particles.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="ProcessAppFlag" Name="OperateOnParticleSimProperty" />
                         </p:NodeReference>
@@ -8227,7 +8232,7 @@
                         <Pin Id="EAhIhrvpIPFL8Nq1TXeckq" Name="Pos" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="279,487,113,19" Id="MdbRJIyFWh5MevigdzyU3r">
-                        <p:NodeReference LastCategoryFullName="Component.Modifier.Behaviour.Utils" LastSymbolSource="VL.Particles.vl">
+                        <p:NodeReference LastCategoryFullName="VL.Particles.Component.Modifier.Behaviour.Utils" LastSymbolSource="VL.Particles.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="PointTargetAdvanced (Math)" />
                         </p:NodeReference>
@@ -8238,7 +8243,7 @@
                         <Pin Id="PoA9WENCR0pPomJb2QRrOv" Name="Output" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="205,536,153,19" Id="NBenfIAg8plM44EkMsVQGq">
-                        <p:NodeReference LastCategoryFullName="Utils" LastSymbolSource="VL.Particles.vl">
+                        <p:NodeReference LastCategoryFullName="VL.Particles.Utils" LastSymbolSource="VL.Particles.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="ProcessAppFlag" Name="OperateOnParticleSimProperty" />
                         </p:NodeReference>
@@ -8432,7 +8437,7 @@
                       <Patch Id="QZ6Gj6hCnAnO2FuzmbaRro" Name="Update" ManuallySortedPins="true" />
                       <Patch Id="AoYTVZpxXJVPV4HoLHQbuQ" Name="Dispose" ManuallySortedPins="true" />
                       <Node Bounds="251,258,52,19" Id="Jg01oSAIDNZLKKwwMtKvxp">
-                        <p:NodeReference LastCategoryFullName="Component.Modifier.Behaviour.Drag" LastSymbolSource="VL.Particles.vl">
+                        <p:NodeReference LastCategoryFullName="VL.Particles.Component.Modifier.Behaviour.Drag" LastSymbolSource="VL.Particles.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="SetDrag" />
                         </p:NodeReference>
@@ -8505,7 +8510,7 @@
                       <Link Id="EhmB0ZgcMOuL3MTzSCTPmv" Ids="RBB8HsVIQPYN7UuKehmQFP,SkRoWuJQUErLydPz4X1Ptv" />
                       <Link Id="UItYZLU4nV3P0iQ7L3vPor" Ids="VtJbwtOnqhbOXGCTns4aPK,KebhZJ3gPlDOrvI5ctF6KB" />
                       <Node Bounds="423,704,56,26" Id="UvzEafMrlbjPjPxG8p7oNm">
-                        <p:NodeReference LastCategoryFullName="Core.Particle" LastSymbolSource="VL.Particles.vl">
+                        <p:NodeReference LastCategoryFullName="VL.Particles.Core.Particle" LastSymbolSource="VL.Particles.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="GetForce" />
                         </p:NodeReference>
@@ -8515,7 +8520,7 @@
                       </Node>
                       <Link Id="ENneCaHBn1qPt7X34who2k" Ids="C8xB4DJmuIcQXlexoyrMKG,GB2kLZnbkrSPB3uoUqM9F3" />
                       <Node Bounds="427,847,55,26" Id="Erw6FvhGYPAPjRrKqU8H70">
-                        <p:NodeReference LastCategoryFullName="Core.Particle" LastSymbolSource="VL.Particles.vl">
+                        <p:NodeReference LastCategoryFullName="VL.Particles.Core.Particle" LastSymbolSource="VL.Particles.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="SetForce" />
                         </p:NodeReference>
@@ -8541,7 +8546,7 @@
                       </Node>
                       <Link Id="BAz55dqUY9AM9epolStxXV" Ids="I3GWyenTKzuPj8YxCiW57b,Gt72ehYYGU3LLnaWRZxNx9" />
                       <Node Bounds="648,648,55,26" Id="UXAD6x21A8tN5TYc6JPfex">
-                        <p:NodeReference LastCategoryFullName="Core.Particle" LastSymbolSource="VL.Particles.vl">
+                        <p:NodeReference LastCategoryFullName="VL.Particles.Core.Particle" LastSymbolSource="VL.Particles.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="GetMass" />
                         </p:NodeReference>
@@ -9877,7 +9882,7 @@
                         <Pin Id="Fm6zDXEOs7kPezGVedCyG0" Name="Pos" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="359,522,69,19" Id="Gh2EnVcpklpLurP743d4N0">
-                        <p:NodeReference LastCategoryFullName="Component.Modifier.Behaviour.Utils" LastSymbolSource="VL.Particles.vl">
+                        <p:NodeReference LastCategoryFullName="VL.Particles.Component.Modifier.Behaviour.Utils" LastSymbolSource="VL.Particles.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationNode" Name="PointTarget (Math)" />
                         </p:NodeReference>
@@ -9887,7 +9892,7 @@
                         <Pin Id="Nx5iInJq36BM09qRG35Umq" Name="Output" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="285,608,153,19" Id="I4UZGZMEU7mMZramLmfd4w">
-                        <p:NodeReference LastCategoryFullName="Utils" LastSymbolSource="VL.Particles.vl">
+                        <p:NodeReference LastCategoryFullName="VL.Particles.Utils" LastSymbolSource="VL.Particles.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="ProcessAppFlag" Name="OperateOnParticleSimProperty" />
                         </p:NodeReference>
@@ -10052,7 +10057,7 @@
                         <Pin Id="Ft9uxhERhL8Ns6eRVJarDx" Name="Pos" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="279,487,113,19" Id="BILwGAVVjrkOz8dxNbtgP5">
-                        <p:NodeReference LastCategoryFullName="Component.Modifier.Behaviour.Utils" LastSymbolSource="VL.Particles.vl">
+                        <p:NodeReference LastCategoryFullName="VL.Particles.Component.Modifier.Behaviour.Utils" LastSymbolSource="VL.Particles.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="PointTargetAdvanced (Math)" />
                         </p:NodeReference>
@@ -10063,7 +10068,7 @@
                         <Pin Id="ODyqSS5UfS8MvGffs3oJ3x" Name="Output" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="205,536,153,19" Id="EP935N8AtfzNuiMCAgvLhS">
-                        <p:NodeReference LastCategoryFullName="Utils" LastSymbolSource="VL.Particles.vl">
+                        <p:NodeReference LastCategoryFullName="VL.Particles.Utils" LastSymbolSource="VL.Particles.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="ProcessAppFlag" Name="OperateOnParticleSimProperty" />
                         </p:NodeReference>
@@ -11451,7 +11456,7 @@
                   <Patch Id="U6EJoL1eoVUNQcdx6g6Owg" Name="Update" ManuallySortedPins="true" />
                   <Patch Id="KC6InJBodzCOaOGxbd3X2H" Name="Dispose" ManuallySortedPins="true" />
                   <Node Bounds="179,593,64,26" Id="KDNiDy2PoRmMvUW17JrOxB">
-                    <p:NodeReference LastCategoryFullName="Core.Particle" LastSymbolSource="VL.Particles.vl">
+                    <p:NodeReference LastCategoryFullName="VL.Particles.Core.Particle" LastSymbolSource="VL.Particles.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="ClearForce" />
                     </p:NodeReference>
@@ -11459,7 +11464,7 @@
                     <Pin Id="Am0AxJG8Vy3LeWWQQ4zpWT" Name="Output" Kind="StateOutputPin" />
                   </Node>
                   <Node Bounds="179,637,74,26" Id="GhurB2eh1jiLyTwmLsSBSj">
-                    <p:NodeReference LastCategoryFullName="Core.Particle" LastSymbolSource="VL.Particles.vl">
+                    <p:NodeReference LastCategoryFullName="VL.Particles.Core.Particle" LastSymbolSource="VL.Particles.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="ComputeLife" />
                     </p:NodeReference>
@@ -11689,7 +11694,7 @@
                     <Pin Id="L13lZET7R3TObZbG4HN7GD" Name="Output" Kind="StateOutputPin" />
                   </Node>
                   <Node Bounds="448,186,149,19" Id="RyLQ53SDJ4tLNhlmsnZPjy">
-                    <p:NodeReference LastCategoryFullName="Component.Utils" LastSymbolSource="VL.Particles.vl">
+                    <p:NodeReference LastCategoryFullName="VL.Particles.Component.Utils" LastSymbolSource="VL.Particles.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationNode" Name="FilterUnassignedComponents" />
                     </p:NodeReference>
@@ -11857,7 +11862,7 @@
                   <Patch Id="Cb0ciy0DJb0Md44bK6blOn" Name="Update" ManuallySortedPins="true" />
                   <Patch Id="MwvGBRJCP7cPcMlnwfmlI0" Name="Dispose" ManuallySortedPins="true" />
                   <Node Bounds="398,958,98,19" Id="OoYOQ5yOsIeO7Lptbw6hxU">
-                    <p:NodeReference LastCategoryFullName="Core" LastSymbolSource="VL.Particles.vl">
+                    <p:NodeReference LastCategoryFullName="VL.Particles.Core" LastSymbolSource="VL.Particles.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="ParticleImmutable" />
                     </p:NodeReference>
@@ -12274,9 +12279,9 @@
               <Pad Id="LrnitwPip7zLO5vCxkNPey" SlotId="EKCObCsSmtSNb9oRaZuVur" Bounds="518,314">
                 <p:ValueBoxSettings />
               </Pad>
-              <ControlPoint Id="BHFrsSaan4LPgE0C5G9lXQ" Bounds="518,240" />
-              <ControlPoint Id="PUDUKduI0c3OozoMLMJ4mS" Bounds="899,38" />
-              <Node Bounds="741,103,99,19" Id="JdG9PaOjUZcOBJlMPAOt1p">
+              <ControlPoint Id="BHFrsSaan4LPgE0C5G9lXQ" Bounds="518,18" />
+              <ControlPoint Id="PUDUKduI0c3OozoMLMJ4mS" Bounds="899,-7" />
+              <Node Bounds="741,58,99,19" Id="JdG9PaOjUZcOBJlMPAOt1p">
                 <p:NodeReference LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SequenceChanged" />
@@ -12323,7 +12328,7 @@
                     <ControlPoint Id="LJ1IZnJIVqaLXOmX6y4maZ" Bounds="787,304" Alignment="Top" />
                   </Node>
                   <Node Bounds="897,264,149,19" Id="VRiThpZr3KtNzo5li60OO1">
-                    <p:NodeReference LastCategoryFullName="Component.Utils" LastSymbolSource="VL.Particles.vl">
+                    <p:NodeReference LastCategoryFullName="VL.Particles.Component.Utils" LastSymbolSource="VL.Particles.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationNode" Name="FilterUnassignedComponents" />
                     </p:NodeReference>
@@ -12339,7 +12344,7 @@
                 <p:ValueBoxSettings />
               </Pad>
               <Node Bounds="284,560,90,19" Id="DZaCKCLbDluMShJ1IT8b4I">
-                <p:NodeReference LastCategoryFullName="Core" LastSymbolSource="VL.Particles.vl">
+                <p:NodeReference LastCategoryFullName="VL.Particles.Core" LastSymbolSource="VL.Particles.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="PSystemContext" />
                 </p:NodeReference>
@@ -12419,7 +12424,7 @@
                     <Pin Id="Vl9SoH3WNZnPMnBeC0G0IA" Name="Output" Kind="StateOutputPin" />
                   </Node>
                   <Node Bounds="249,1003,68,26" Id="KCLluANmJrTNBGvmqfReKr">
-                    <p:NodeReference LastCategoryFullName="Core.ParticlesGroup" LastSymbolSource="VL.Particles.vl">
+                    <p:NodeReference LastCategoryFullName="VL.Particles.Core.ParticlesGroup" LastSymbolSource="VL.Particles.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="GetName" />
                     </p:NodeReference>
@@ -12493,8 +12498,8 @@
               </Overlay>
               <ControlPoint Id="K67V7j4c6DtNLTeCV2YIrw" Bounds="518,356" />
               <ControlPoint Id="A2gXFXkGbglLP7k3gFxYKK" Bounds="218,359" />
-              <Pad Id="IeBdV8SMKM2N2d7dNGwCJ5" SlotId="UrSEVbWDgjkPANNsLE7B8m" Bounds="899,70" />
-              <Node Bounds="741,140,54,19" Id="UgGcBTN1JdOQAwHFWArjC4">
+              <Pad Id="IeBdV8SMKM2N2d7dNGwCJ5" SlotId="UrSEVbWDgjkPANNsLE7B8m" Bounds="899,25" />
+              <Node Bounds="741,95,54,19" Id="UgGcBTN1JdOQAwHFWArjC4">
                 <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="OnOpen" />
@@ -12523,7 +12528,7 @@
                 <p:ValueBoxSettings />
               </Pad>
               <Node Bounds="1066,933,118,19" Id="Ect7TgE7AruNqBGIC1N5Fz">
-                <p:NodeReference LastCategoryFullName="Utils.ParticlesGroup" LastSymbolSource="VL.Particles.vl">
+                <p:NodeReference LastCategoryFullName="VL.Particles.Utils.ParticlesGroup" LastSymbolSource="VL.Particles.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="GetParticlesGroupByID" />
                 </p:NodeReference>
@@ -12545,6 +12550,24 @@
                 <Pin Id="SFGEx4Y42ahLjZwCd6MLSS" Name="False" Kind="InputPin" />
                 <Pin Id="NwSdHAzOcgeOhH8RYKrARq" Name="True" Kind="InputPin" />
                 <Pin Id="FTKomGKLtWzMTqTFTFk5q9" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="558,56,99,19" Id="L8py5GEpTWyNvl2Vdvq8F0">
+                <p:NodeReference LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="SequenceChanged" />
+                </p:NodeReference>
+                <Pin Id="LWpNbZkrjTVOFcWUWT6Yxa" Name="Value" Kind="InputPin" />
+                <Pin Id="KVfV2bvQFRIPj1WM0P0M8D" Name="Result" Kind="OutputPin" />
+                <Pin Id="V0xeuGh8JyeOfZkBaUHaZT" Name="Unchanged" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="704,140,30,19" Id="NXUoz7D15B9QLtTydWOzK9">
+                <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="OR" />
+                </p:NodeReference>
+                <Pin Id="U76lnw5y0h2O3dzPOVypHU" Name="Input" Kind="StateInputPin" />
+                <Pin Id="TxjzAAsRghSPubS3A7pXrV" Name="Input 2" Kind="InputPin" />
+                <Pin Id="N27oXmNLO0ANgU3Ynj12Nf" Name="Output" Kind="StateOutputPin" />
               </Node>
             </Canvas>
             <Patch Id="IWzhf6eZhoDLwqgGkD8KO4" Name="Create" />
@@ -12671,7 +12694,6 @@
             <Link Id="FO6O4Gd0YSZMquVqTZYfsM" Ids="IeBdV8SMKM2N2d7dNGwCJ5,TI2e1YJ4trUOMyf2XcLgUi" />
             <Link Id="JUxJfFBYEaCOMvQz14IaUk" Ids="B6BRsTJceINN2fZiFNPMLH,MbLKyfP9Oq9PDmuS0Z8sQe" />
             <Link Id="HYgJv7um309OyQ3bYlIOuy" Ids="BAxNuzURZGaPx7vPtemYRO,HkVVTORjUe1ONuKWkbPQcI" />
-            <Link Id="SO8O0dXC8bMNjFTVNLh39W" Ids="LIFjO9tNOJTN5nx4RCNGEi,FGAtNbrfhLFLTCYsQJz1HW" />
             <Link Id="AoJulJK6FeCNmzkH2ohGDe" Ids="Fuo3UGMD5QhMfzdwSLd4AA,T8OvANaUArCPrm0mAwwAnM" />
             <Link Id="Vh2qqJ02gcMODYJoT8Mjkv" Ids="OklvSdT9WV0QP5pR7syiM6,BDeywkqZNf4QHx4qDHt74Y" />
             <Link Id="C2d1MDkON6QO5uBJUWpkA4" Ids="BDeywkqZNf4QHx4qDHt74Y,QVJwX63ohhaQDmkKLSDfJv" IsHidden="true" />
@@ -12689,6 +12711,10 @@
               <Pin Id="RdkOyO5buhVQVzfbehzk0M" Name="Group ID" Kind="InputPin" />
               <Pin Id="EtGxAlS9jbaLe2aTW64Q0g" Name="Particles Group" Kind="OutputPin" />
             </Patch>
+            <Link Id="AaqgOxMRfVdMwaUz07eQkb" Ids="BHFrsSaan4LPgE0C5G9lXQ,LWpNbZkrjTVOFcWUWT6Yxa" />
+            <Link Id="IYyu68TpqsNOrf5AxAE0sP" Ids="KVfV2bvQFRIPj1WM0P0M8D,U76lnw5y0h2O3dzPOVypHU" />
+            <Link Id="G7109XFr9YwMKMecEyzGYh" Ids="LIFjO9tNOJTN5nx4RCNGEi,TxjzAAsRghSPubS3A7pXrV" />
+            <Link Id="EPv3vb8wziiPgkz3CrVgtg" Ids="N27oXmNLO0ANgU3Ynj12Nf,FGAtNbrfhLFLTCYsQJz1HW" />
           </Patch>
         </Node>
         <!--
@@ -12703,7 +12729,7 @@
           <Patch Id="PxmDERmcg5gLLg2JbTUYWn" IsGeneric="true">
             <Canvas Id="CrJDo4uDNcKLusBI2rzWQd" CanvasType="Group">
               <Node Bounds="209,469,714,19" Id="SrQwmQHHzDJOfiqTr7aYF4">
-                <p:NodeReference LastCategoryFullName="Core" LastSymbolSource="VL.Particles.vl">
+                <p:NodeReference LastCategoryFullName="VL.Particles.Core" LastSymbolSource="VL.Particles.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessNode" Name="ParticlesSystem" />
                 </p:NodeReference>
