@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="AYn4Ryg4BtcMkrc6XyPMKV" LanguageVersion="2019.1.0-0425-gef454d89b2" Version="0.128">
+<Document xmlns:p="property" Id="AYn4Ryg4BtcMkrc6XyPMKV" LanguageVersion="2019.1.0-0428-g0be7813910" Version="0.128">
   <NugetDependency Id="T244Q6a6bqfL4iDIT8fA8g" Location="VL.CoreLib" Version="2019.1.0-425" />
   <Patch Id="FvcJIxY2YPQLfNjFQbwFvt">
     <Canvas Id="OVh8NQEwHdlM2ew2EnVXTe" DefaultCategory="Main" CanvasType="FullCategory" />
@@ -127,7 +127,6 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
-            <Pin Id="BFiMoLobiB7Pl6rfwlJtKP" Name="Initial Clock" Kind="InputPin" />
             <Pin Id="HtuF3pkMzzmOm9Gq8LjKL1" Name="Period" Kind="InputPin">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
@@ -222,21 +221,10 @@
               <FullNameCategoryReference ID="VL.Particles.Component.Constraint" />
               <Choice Kind="ProcessNode" Name="Confine (2D)" />
             </p:NodeReference>
-            <Pin Id="GrmlgcgI6S9PDen7EOfAkY" Name="Min" Kind="InputPin" />
-            <Pin Id="Rd3vSPwl7vJOj6dWYIEPZo" Name="Max" Kind="InputPin" />
+            <Pin Id="UKti9Knu6R8MRZ8jDTphnG" Name="Rectangle" Kind="InputPin" />
             <Pin Id="F6hfVQBCw42N9ktUUgarqE" Name="Bounce" Kind="InputPin" />
             <Pin Id="BYkkzG6HJoKLoBSJZ6OI3F" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="LdCZk1zB1KFNEBo0uz3n90" Comment="Max" Bounds="957,298,35,28" ShowValueBox="true" isIOBox="true" Value="0.5, 0.5">
-            <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Vector2" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="NzvPlSnIkxsOREidIX54dw" Comment="Min" Bounds="888,268,35,28" ShowValueBox="true" isIOBox="true" Value="-0.5, -0.5">
-            <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Vector2" />
-            </p:TypeAnnotation>
-          </Pad>
           <Node Bounds="741,378,58,19" Id="PvVDcHQHE5GLih9VSCVipC">
             <p:NodeReference LastCategoryFullName="VL.Particles.Component.Modifier.Behaviour" LastSymbolSource="VL.Particles.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -266,15 +254,6 @@
             <Pin Id="QCD5p4iHQ7TL7wJUw9fEHy" Name="Paint" Kind="InputPin" />
             <Pin Id="Q7xc2gliIOINmfzzOBfyTb" Name="Enabled" Kind="InputPin" />
             <Pin Id="NbXk4S8lLX0Ml7o4Qb07BM" Name="Output" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="991,475,61,26" Id="Non0YBOqJsNPPLCPZnwa9r">
-            <p:NodeReference LastCategoryFullName="2D.Rectangle" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="Rectangle (Join Points)" />
-            </p:NodeReference>
-            <Pin Id="T7D6ALLahiHP8YdOyscyx8" Name="Point A" Kind="InputPin" />
-            <Pin Id="CZgWG8CIclGLLdYhL6mGJi" Name="Point B" Kind="InputPin" />
-            <Pin Id="Pa4HKnnyowEOSknhZQ8RRx" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="276,824,44,19" Id="MJluRK2jCcyObx3NVHHqvT">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
@@ -317,6 +296,20 @@
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
           </Pad>
+          <Node Bounds="865,324,61,19" Id="Ob9ug2y8nEsNSM5nQFCxR1">
+            <p:NodeReference LastCategoryFullName="2D.Rectangle" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Rectangle (Join)" />
+            </p:NodeReference>
+            <Pin Id="Sf3bhDLrdAaLr315Vze9xi" Name="Position" Kind="InputPin" />
+            <Pin Id="BR97YciWG0qQLIwXSPhcse" Name="Size" Kind="InputPin" />
+            <Pin Id="VgMM8tugMP3OheTpU7JRjo" Name="Anchor" Kind="InputPin" DefaultValue="Center">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="RectangleAnchor" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="IkkjDBwoEJlNGFbDQVT6tE" Name="Output" Kind="StateOutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="TS15HPDhCTdOqp6NvGu6Kx" Name="Create" />
         <Patch Id="VOTErjlsw2cLX2P0RRGce6" Name="Update" />
@@ -341,12 +334,7 @@
         <Link Id="Bbw7ctUJdc3O21gcn6VJGW" Ids="LWQ381MWHNOM8QKXnNMA34,Rc8m2FH9whcLZ8hPexhg7L" />
         <Link Id="TjUp8uGoUpuMcMdl9UxmAt" Ids="LWQ381MWHNOM8QKXnNMA34,DduU5EGaGQDL6TV3tEW7ua" />
         <Link Id="LUl09gfwchoLCQthBpkN9y" Ids="CjxsuAyWMVRN1BM79WTpGM,AXstNDRS1W7QGZCiPE2AnG" />
-        <Link Id="JxZiBW0OxJGLZUkW5FeQ1r" Ids="LdCZk1zB1KFNEBo0uz3n90,Rd3vSPwl7vJOj6dWYIEPZo" />
-        <Link Id="Sm0LAOlPOzjMUKBNAXmg9L" Ids="NzvPlSnIkxsOREidIX54dw,GrmlgcgI6S9PDen7EOfAkY" />
         <Link Id="DKjwnRfWW57OlJqgaS835t" Ids="TEfLTxz7nuJNiKC1UaffKn,V2XWOq0Ja4VPy4QgvbGmSp" />
-        <Link Id="JKvaJxRe8psQCun2zOeFN6" Ids="NzvPlSnIkxsOREidIX54dw,T7D6ALLahiHP8YdOyscyx8" />
-        <Link Id="QpAyMc7qe1WQRGugZzkReC" Ids="LdCZk1zB1KFNEBo0uz3n90,CZgWG8CIclGLLdYhL6mGJi" />
-        <Link Id="Q8ZvFVTh7Q0QTfmC1AYazB" Ids="Pa4HKnnyowEOSknhZQ8RRx,TRxUe4TN3ZOQCwWbkl9DBW" />
         <Link Id="HInv37gtwlZNeuFNeOgNhF" Ids="EGecXNV2xDRN1UmwO0yjzh,E0MMih0DoRBLmFqsSNhgp3" />
         <Link Id="Qlo6kDoUndmMZ0ED1wPNdr" Ids="NbXk4S8lLX0Ml7o4Qb07BM,P9uXMEmz9zwQUARYHZeuV9" />
         <Link Id="DJU6u5m3fLcN6RihQqtTNJ" Ids="JHPuOuaj3REOXxAd9aUfcg,C2S8QXO1paGML8NQhHMLVc" />
@@ -358,6 +346,8 @@
         <Link Id="JFGLrKn3XdyPR5ONEMHyNy" Ids="CGe6r5QiDsINjHNn3LAuee,BTWqtDktjEKNtPTgpnlge8" />
         <Link Id="FeM4UP8yMDRPp2yBBHfROy" Ids="LV633CiIzwDNipgAGmKaIK,TKoeVcexAAxPuHfOw0ejrP" />
         <Link Id="JHrO2kKypXGOOvBPPuaI0c" Ids="BYkkzG6HJoKLoBSJZ6OI3F,OMNqj7mfCObNm978MOr8B7" />
+        <Link Id="VFVoAeDKGpmPRa83ABGAYw" Ids="IkkjDBwoEJlNGFbDQVT6tE,UKti9Knu6R8MRZ8jDTphnG" />
+        <Link Id="PZbFH1phg8bLqu9iQTRj64" Ids="IkkjDBwoEJlNGFbDQVT6tE,TRxUe4TN3ZOQCwWbkl9DBW" />
       </Patch>
     </Node>
   </Patch>
