@@ -24,12 +24,12 @@
             <Pin Id="SNZiryzdhpLPEWYiet6gM9" Name="Global Components" Kind="InputPin" />
             <Pin Id="PEGkyEFgTwEOwprgydDt6P" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="410,1122,105,19" Id="CRYl0aO9MUJMM0DQeabV0V">
+          <Node Bounds="269,1166,105,19" Id="CRYl0aO9MUJMM0DQeabV0V">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="VhEzTUQIaJyOFLPRYz4CPF" Name="Bounds" Kind="InputPin" DefaultValue="1226, 139, 600, 400">
+            <Pin Id="VhEzTUQIaJyOFLPRYz4CPF" Name="Bounds" Kind="InputPin" DefaultValue="1225, 138, 600, 400">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -43,17 +43,16 @@
             <Pin Id="ONeg2UgmlkyQKT3qXbZHAH" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="BJmQ006XzlhLjLmQElqTPA" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Node Bounds="291,858,146,26" Id="Lc9dMH3aL5QLCoYQ21U9jp">
-            <p:NodeReference LastCategoryFullName="VL.Particles.Core.ParticlesSystem" LastSymbolSource="VL.Particles.vl">
+          <Node Bounds="291,858,13,19" Id="Lc9dMH3aL5QLCoYQ21U9jp">
+            <p:NodeReference LastCategoryFullName="VL.Particles.Core" LastSymbolSource="VL.Particles.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="GetImmutableParticlesGroup" />
+              <Choice Kind="OperationCallFlag" Name="GetParticlesGroup" />
             </p:NodeReference>
-            <Pin Id="PNF2ED6ZOGkLd6lQx0erWi" Name="Input" Kind="StateInputPin" />
+            <Pin Id="Fdkb3z0kjsaPuXQlCQaDgz" Name="Particles System" Kind="InputPin" />
             <Pin Id="GEYpmQ7qH5FNQJShlNQxDs" Name="Group ID" Kind="InputPin" />
-            <Pin Id="JQfcOzAP5LUPyikVYoI2sd" Name="Output" Kind="StateOutputPin" />
             <Pin Id="TyGe9fO8On5NHNpln6aneq" Name="Immutable Particles Group" Kind="OutputPin" />
           </Node>
-          <Node Bounds="431,949,105,19" Id="KsyQfYOklFCM5xFZb8J8Lz">
+          <Node Bounds="290,993,105,19" Id="KsyQfYOklFCM5xFZb8J8Lz">
             <p:NodeReference LastCategoryFullName="VL.Particles.Draw" LastSymbolSource="VL.Particles.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawerPoints" />
@@ -65,7 +64,7 @@
             <Pin Id="DgKUaLG2BnCNSwQiL4xWnK" Name="Enabled" Kind="InputPin" />
             <Pin Id="EGecXNV2xDRN1UmwO0yjzh" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="498,914,45,19" Id="GZgwIC81IuwNPcghBMck99">
+          <Node Bounds="357,958,45,19" Id="GZgwIC81IuwNPcghBMck99">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Paint" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Fill" />
@@ -75,17 +74,17 @@
             <Pin Id="BJmU7MfkbsdOjxTZ0nOOhL" Name="Shader" Kind="InputPin" />
             <Pin Id="Ini1GSRVXDDMJjArIHWwuc" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="JyiZZcfCiK4N1t2iWk8NTQ" Comment="Color" Bounds="520,896,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0.48, 0, 1">
+          <Pad Id="JyiZZcfCiK4N1t2iWk8NTQ" Comment="Color" Bounds="379,940,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0.48, 0, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="J38WHxgM46iNk1aSY76RX8" Comment="Size" Bounds="477,870,35,15" ShowValueBox="true" isIOBox="true" Value="0.01">
+          <Pad Id="J38WHxgM46iNk1aSY76RX8" Comment="Size" Bounds="336,914,35,15" ShowValueBox="true" isIOBox="true" Value="0.01">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="ECDsNPSWwsSLDNYRJx2zwO" Comment="Color" Bounds="452,1089,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0.1043996, 0.18, 1">
+          <Pad Id="ECDsNPSWwsSLDNYRJx2zwO" Comment="Color" Bounds="311,1133,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0.1043996, 0.18, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
@@ -116,7 +115,7 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="D59xSm3AvLzLvJFAtN5rRy" Comment="Name" Bounds="433,811,96,22" ShowValueBox="true" isIOBox="true" Value="Field Particles">
+          <Pad Id="D59xSm3AvLzLvJFAtN5rRy" Comment="Name" Bounds="387,815,96,22" ShowValueBox="true" isIOBox="true" Value="Field Particles">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -197,7 +196,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="431,1021,44,19" Id="QSQ8j0MnT6uLy1wSRibLzL">
+          <Node Bounds="290,1065,45,19" Id="QSQ8j0MnT6uLy1wSRibLzL">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
@@ -536,7 +535,6 @@
         <Link Id="E5EW73zSHCzPEIRBuksDlB" Ids="J38WHxgM46iNk1aSY76RX8,DOertYYA8U9Lgt5KTdSLdU" />
         <Link Id="DB6stTKIS80QXt3FqAKTdp" Ids="ECDsNPSWwsSLDNYRJx2zwO,Cerox5B8GUJORNqzQO7d79" />
         <Link Id="Loaa1Z0iGgkPXIH9ejN93Q" Ids="LDcv8U4NJY3LpTyrSLXpxW,E2hQL2LEkAgMBpgP8O7OQ6" />
-        <Link Id="Aepu64lMvVENUQYixeKeCW" Ids="PEGkyEFgTwEOwprgydDt6P,PNF2ED6ZOGkLd6lQx0erWi" />
         <Link Id="Pp7Vm7q9C9kMZ70NIBTaua" Ids="Q7Eh7k9dGzyQZOWVOz3smk,ECnowJfwYrvNDmZKH9i6P0" />
         <Link Id="DXxV0uSyX4KOlRE9Lr2cM7" Ids="D59xSm3AvLzLvJFAtN5rRy,GEYpmQ7qH5FNQJShlNQxDs" />
         <Link Id="QQi1zF6IXL7QEQUrQK6ufE" Ids="EkgjTO85oNOM2uKTyVONWI,TMkJBrbKMaNQZGGncTviYb" />
@@ -580,6 +578,7 @@
         <Link Id="IUEKdDIfP8WMx8wre62EZ1" Ids="COjaE2rHwgKQW2ENiPdE2J,THfgupPyu07Og4qTPMdkt5" />
         <Link Id="IAi4yYswaQ8PJLuIBj7MOV" Ids="V1zWnkGpL4zP9zt3qpjaPs,CsGBaGYQJQCMympycAa0lE" />
         <Link Id="Lo7cSA7mUxVMhYTLhX1Vcv" Ids="CC4gof0v0OoMqnK5NxIK21,NGSpr5xxbyfOv7igPFVdLl" />
+        <Link Id="VsTfU38AdWgOsNLDgVVRYn" Ids="PEGkyEFgTwEOwprgydDt6P,Fdkb3z0kjsaPuXQlCQaDgz" />
       </Patch>
     </Node>
   </Patch>

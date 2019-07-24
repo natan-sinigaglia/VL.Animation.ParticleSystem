@@ -6892,10 +6892,10 @@
           </Node>
           <!--
 
-    ************************ ClearParticlesGroup ************************
+    ************************ ClearParticles ************************
 
 -->
-          <Node Name="ClearParticlesGroup" Bounds="253,425" Id="KTLFWuOlOpoNddrhktvNzT">
+          <Node Name="ClearParticles" Bounds="253,425" Id="KTLFWuOlOpoNddrhktvNzT">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
               <Choice Kind="ClassDefinition" Name="Class" />
             </p:NodeReference>
@@ -10159,9 +10159,9 @@
                   <ControlPoint Id="FSyaRpcZ5BTPllFOw1my8h" Bounds="256,304" Alignment="Top" />
                 </Node>
                 <Pad Id="Q0AUcHHz7igLG5W1UxsLyr" SlotId="MSx05USiHmlOR6VIgsU6xU" Bounds="483,260" />
-                <Pad Id="U97CA57qcXKLleEZFNbcaH" SlotId="GkoeSM1KGVbOfiHsM0FNON" Bounds="554,526" />
+                <Pad Id="U97CA57qcXKLleEZFNbcaH" SlotId="QbfxamCmjvjLWViy63PA3f" Bounds="554,526" />
                 <Pad Id="NQ4XMtN6Du2NeLR2wd1ArR" SlotId="MSx05USiHmlOR6VIgsU6xU" Bounds="425,166" />
-                <Pad Id="GsGgqISTDuRPls7YAkdpu5" SlotId="GkoeSM1KGVbOfiHsM0FNON" Bounds="532,166" />
+                <Pad Id="GsGgqISTDuRPls7YAkdpu5" SlotId="QbfxamCmjvjLWViy63PA3f" Bounds="532,166" />
                 <ControlPoint Id="UZ4bW2ZX5eEM1LCVcg2LNK" Bounds="425,114" />
                 <ControlPoint Id="Crf6uedCZ7dPEUKkmS3dxy" Bounds="532,114" />
                 <Pad Id="Ncjxgs7ibylM2heXb7XbQI" SlotId="Dx0lv2KxnxuOWzGwDdHHRI" Bounds="372,265" />
@@ -10171,7 +10171,7 @@
               <Patch Id="VeAjVAowBSpQVKq0kuXm5j" Name="Create" />
               <Patch Id="FA5NF4mEZDpPFXSzxFbTXy" Name="Update">
                 <Pin Id="AZFm5JbLmJIML05fHc56Zb" Name="Rectangle" Kind="InputPin" Bounds="427,138" />
-                <Pin Id="J3tzvgIQuulN6gGOJjb5yb" Name="If Outside" Kind="InputPin" Bounds="517,138" DefaultValue="True">
+                <Pin Id="J3tzvgIQuulN6gGOJjb5yb" Name="Inside / Outside" Kind="InputPin" Bounds="517,138" DefaultValue="True">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Boolean" />
                   </p:TypeAnnotation>
@@ -10215,7 +10215,6 @@
               <Link Id="SFqQfuUP7CSMwbHM45ClkG" Ids="AZFm5JbLmJIML05fHc56Zb,UZ4bW2ZX5eEM1LCVcg2LNK" IsHidden="true" />
               <Link Id="LxFU7Pu57WQNyYiLr5atUw" Ids="Crf6uedCZ7dPEUKkmS3dxy,GsGgqISTDuRPls7YAkdpu5" />
               <Link Id="PrSVi3m5Yl4M6y4xSlktz1" Ids="J3tzvgIQuulN6gGOJjb5yb,Crf6uedCZ7dPEUKkmS3dxy" IsHidden="true" />
-              <Slot Id="GkoeSM1KGVbOfiHsM0FNON" Name="If Outside" />
               <Link Id="P9p8yOWlGZkN9HD0V5FR0d" Ids="FSyaRpcZ5BTPllFOw1my8h,D7tQjcB6OneP8KLPHprOvo" />
               <Link Id="BVRJwMAdcsaN3s8jPQ4Izy" Ids="Ib4GjUdlcQTPf02JL2qPL5,LoOa9AtJHFwOk3PqfTN1tO" />
               <Link Id="CKNZ8CcOhA2PAqG9pwDj7c" Ids="Jw6NpdYxMhCNBTY3UoLaC3,DYcgvfjEi5CPIrYG3E2e2H" />
@@ -10229,6 +10228,7 @@
               <Link Id="DXVxRiN8EoSP7xnD0HRe2X" Ids="BhMLWbnFsj6MeHBK6kmZyC,HssUmqppg2wLWwvhdksQ6V" />
               <Link Id="PpimavX6SgGN7TXUP72O3A" Ids="HssUmqppg2wLWwvhdksQ6V,L2APx3iz8k4PGzPSQkyLrI" />
               <Link Id="JTf5xJhjoZJN1WQOz4rbxB" Ids="GsGgqISTDuRPls7YAkdpu5,HSbGXcD7bRkPinciB0eWyc" />
+              <Slot Id="QbfxamCmjvjLWViy63PA3f" Name="Inside / Outside" />
             </Patch>
           </Node>
         </Canvas>
@@ -15750,10 +15750,10 @@
         </Node>
         <!--
 
-    ************************ ParticlesSystem ************************
+    ************************ ParticlesSystem (Internal) ************************
 
 -->
-        <Node Name="ParticlesSystem" Bounds="187,409" Id="RO3CX2UnhLRN4wOtkPzPf1">
+        <Node Name="ParticlesSystem (Internal)" Bounds="187,409" Id="RO3CX2UnhLRN4wOtkPzPf1">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="ClassDefinition" Name="Class" />
           </p:NodeReference>
@@ -16333,7 +16333,7 @@
               <Node Bounds="209,469,714,19" Id="SrQwmQHHzDJOfiqTr7aYF4">
                 <p:NodeReference LastCategoryFullName="VL.Particles.Core" LastSymbolSource="VL.Particles.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="ProcessNode" Name="ParticlesSystem" />
+                  <Choice Kind="ProcessAppFlag" Name="ParticlesSystem" />
                 </p:NodeReference>
                 <Pin Id="QjtvUIiam5YMf6zdYh5Zf1" Name="SetClock" Kind="InputPin" />
                 <Pin Id="PtL7S0TIEHOOAKW1nQgX1K" Name="Particles Group" Kind="InputPin" />
@@ -16816,6 +16816,40 @@
             <Link Id="H4fK8LFjmgTNR5Khwk5t3m" Ids="Cjy6MqzKTR9NwRdy1esqIM,HbIH0ogyCiMN3z2dncVY97" />
             <Link Id="NwX0Rba1Y6GP2bVsYGbnhj" Ids="L4orlZT3U5PLRMHi6N5oFo,VQc893TqcGlLs4SZMvKUWS" />
             <Link Id="Gt5BHsBpNfCMbQ4I0fhdp8" Ids="JnISXvpLlnoP8KYsXX04m4,Uocw2vBjfZrOIDwgJDZecG" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ GetParticlesGroup ************************
+
+-->
+        <Node Name="GetParticlesGroup" Bounds="611,-107,298,119" Id="QlI1n3mAo5cM8LL1YqKTfl">
+          <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
+            <Choice Kind="OperationDefinition" Name="Operation" />
+          </p:NodeReference>
+          <Patch Id="QWbKrcNM6sLMMV7bOSBoGM" IsGeneric="true">
+            <Node Bounds="623,-54,146,26" Id="LNCr6sCfMvUOzKJGFg65mT">
+              <p:NodeReference LastCategoryFullName="VL.Particles.Core.ParticlesSystem" LastSymbolSource="VL.Particles.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="GetImmutableParticlesGroup" />
+              </p:NodeReference>
+              <Pin Id="J9VD4lVPwT2OtYElWarkqr" Name="Input" Kind="StateInputPin" />
+              <Pin Id="SvtVxBauqPuPCBC6mSd1OI" Name="Group ID" Kind="InputPin" />
+              <Pin Id="NFFdjZ7ZwzkOHtA1GZ5WOV" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="NZ1J0NDSRCDM3rwVHyFbMG" Name="Immutable Particles Group" Kind="OutputPin" />
+            </Node>
+            <ControlPoint Id="CIr7kFZlpSEMxMgOyKm0jH" Bounds="766,-87" />
+            <Link Id="FsPj1AzaCElMrhLhLace9s" Ids="CIr7kFZlpSEMxMgOyKm0jH,SvtVxBauqPuPCBC6mSd1OI" />
+            <Pin Id="RUfaGPz0VgFMwIZzuOkOuv" Name="Group ID" Kind="InputPin" Bounds="769,-41" />
+            <Link Id="EWDhbvhQd9hLtfObVTU3jk" Ids="RUfaGPz0VgFMwIZzuOkOuv,CIr7kFZlpSEMxMgOyKm0jH" IsHidden="true" />
+            <ControlPoint Id="MlibJ0MS79hMA9VnBmrUfv" Bounds="625,-88" />
+            <Link Id="J5oj0J5NxYpQNrgAuhTTqr" Ids="MlibJ0MS79hMA9VnBmrUfv,J9VD4lVPwT2OtYElWarkqr" />
+            <Pin Id="LwhZRIbSgL2LWt8PZqLQWS" Name="Particles System" Kind="InputPin" Bounds="628,-42" />
+            <Link Id="UWXa5vkJKwsLO9PrvZ5ti5" Ids="LwhZRIbSgL2LWt8PZqLQWS,MlibJ0MS79hMA9VnBmrUfv" IsHidden="true" />
+            <ControlPoint Id="EVCdeem0c1DQcSkezhDOoD" Bounds="766,-5" />
+            <Link Id="B60L4ZPd91dQEiZD2wvi8V" Ids="NZ1J0NDSRCDM3rwVHyFbMG,EVCdeem0c1DQcSkezhDOoD" />
+            <Pin Id="AgFXcTMRObrLmLPGP70Zmh" Name="Immutable Particles Group" Kind="OutputPin" Bounds="769,41" />
+            <Link Id="Qud6GnRYYUkLYyE798m5nJ" Ids="EVCdeem0c1DQcSkezhDOoD,AgFXcTMRObrLmLPGP70Zmh" IsHidden="true" />
           </Patch>
         </Node>
       </Canvas>

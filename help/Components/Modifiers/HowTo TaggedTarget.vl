@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="AYn4Ryg4BtcMkrc6XyPMKV" LanguageVersion="2019.1.0-0425-gef454d89b2" Version="0.128">
+<Document xmlns:p="property" Id="AYn4Ryg4BtcMkrc6XyPMKV" LanguageVersion="2019.1.0-0428-g0be7813910" Version="0.128">
   <NugetDependency Id="T244Q6a6bqfL4iDIT8fA8g" Location="VL.CoreLib" Version="2019.1.0-425" />
   <Patch Id="FvcJIxY2YPQLfNjFQbwFvt">
     <Canvas Id="OVh8NQEwHdlM2ew2EnVXTe" DefaultCategory="Main" CanvasType="FullCategory" />
@@ -24,12 +24,12 @@
             <Pin Id="SNZiryzdhpLPEWYiet6gM9" Name="Global Components" Kind="InputPin" />
             <Pin Id="PEGkyEFgTwEOwprgydDt6P" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="307,919,105,19" Id="CRYl0aO9MUJMM0DQeabV0V">
+          <Node Bounds="166,921,105,19" Id="CRYl0aO9MUJMM0DQeabV0V">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="VhEzTUQIaJyOFLPRYz4CPF" Name="Bounds" Kind="InputPin" DefaultValue="1330, 62, 600, 400">
+            <Pin Id="VhEzTUQIaJyOFLPRYz4CPF" Name="Bounds" Kind="InputPin" DefaultValue="1329, 61, 600, 400">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -44,16 +44,15 @@
             <Pin Id="BJmQ006XzlhLjLmQElqTPA" Name="Render Time" Kind="OutputPin" />
           </Node>
           <Node Bounds="186,730,146,26" Id="Lc9dMH3aL5QLCoYQ21U9jp">
-            <p:NodeReference LastCategoryFullName="VL.Particles.Core.ParticlesSystem" LastSymbolSource="VL.Particles.vl">
+            <p:NodeReference LastCategoryFullName="VL.Particles.Core" LastSymbolSource="VL.Particles.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="GetImmutableParticlesGroup" />
+              <Choice Kind="OperationCallFlag" Name="GetParticlesGroup" />
             </p:NodeReference>
-            <Pin Id="PNF2ED6ZOGkLd6lQx0erWi" Name="Input" Kind="StateInputPin" />
+            <Pin Id="Ov4acG3fW6kLkW8rvQRpGB" Name="Particles System" Kind="InputPin" />
             <Pin Id="GEYpmQ7qH5FNQJShlNQxDs" Name="Group ID" Kind="InputPin" />
-            <Pin Id="JQfcOzAP5LUPyikVYoI2sd" Name="Output" Kind="StateOutputPin" />
             <Pin Id="TyGe9fO8On5NHNpln6aneq" Name="Immutable Particles Group" Kind="OutputPin" />
           </Node>
-          <Pad Id="ECDsNPSWwsSLDNYRJx2zwO" Comment="Color" Bounds="349,898,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0.1043996, 0.18, 1">
+          <Pad Id="ECDsNPSWwsSLDNYRJx2zwO" Comment="Color" Bounds="208,900,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0.1043996, 0.18, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
@@ -170,7 +169,6 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
-            <Pin Id="TgrBnLPiYdkQAtWL6oINzc" Name="Initial Clock" Kind="InputPin" />
             <Pin Id="IPeNFEcNDPBO7q5pMmFnKH" Name="Period" Kind="InputPin" />
             <Pin Id="EmpQFXeKFRiLOCmoa9h3qG" Name="Pause" Kind="InputPin" />
             <Pin Id="HOATzgyfKj8LFyWgFiND2v" Name="Reset" Kind="ApplyPin" />
@@ -197,7 +195,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="327,840,44,19" Id="ArcUc3x5wyFL8rMHuViyaC">
+          <Node Bounds="186,842,44,19" Id="ArcUc3x5wyFL8rMHuViyaC">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
@@ -206,7 +204,7 @@
             <Pin Id="F9cLVzLIIeaMHqs7f8h3eV" Name="Input 2" Kind="InputPin" />
             <Pin Id="VZLpX0LEim7LpbH39wZi88" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="327,790,79,19" Id="FTIY51nLqH9MoKODwLM5Ss">
+          <Node Bounds="186,792,79,19" Id="FTIY51nLqH9MoKODwLM5Ss">
             <p:NodeReference LastCategoryFullName="VL.Particles.Draw" LastSymbolSource="VL.Particles.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawerCircles" />
@@ -468,7 +466,6 @@
         </ProcessDefinition>
         <Link Id="DB6stTKIS80QXt3FqAKTdp" Ids="ECDsNPSWwsSLDNYRJx2zwO,Cerox5B8GUJORNqzQO7d79" />
         <Link Id="Loaa1Z0iGgkPXIH9ejN93Q" Ids="LDcv8U4NJY3LpTyrSLXpxW,E2hQL2LEkAgMBpgP8O7OQ6" />
-        <Link Id="Aepu64lMvVENUQYixeKeCW" Ids="PEGkyEFgTwEOwprgydDt6P,PNF2ED6ZOGkLd6lQx0erWi" />
         <Link Id="Pp7Vm7q9C9kMZ70NIBTaua" Ids="Q7Eh7k9dGzyQZOWVOz3smk,ECnowJfwYrvNDmZKH9i6P0" />
         <Link Id="DXxV0uSyX4KOlRE9Lr2cM7" Ids="D59xSm3AvLzLvJFAtN5rRy,GEYpmQ7qH5FNQJShlNQxDs" />
         <Link Id="UeHcmxlUjTLMxsoygXyYwY" Ids="SApa2XaesqUL5reGxm2mWT,TMkJBrbKMaNQZGGncTviYb" />
@@ -529,6 +526,7 @@
         <Link Id="TrMY95k4wHzQdHaji7hqGV" Ids="Jq6ArSZYn7RQYdbyZLJyDH,DhelETy51csMUoy1lkJlqI" />
         <Link Id="OWsckMXQR8IMBCeiDX5zGd" Ids="AsHXupOMA9dOyKj62Tdz1O,N7mJayseOauMme4OIMvlza" />
         <Link Id="A5a9DSHC4Y8P52QU82p2ea" Ids="ENaIniGs89LOssDRNiT1q3,FRbHXmWqXBYOTXIG775Loj" />
+        <Link Id="CAAp3ybwBdQP85HZ2pXEls" Ids="PEGkyEFgTwEOwprgydDt6P,Ov4acG3fW6kLkW8rvQRpGB" />
       </Patch>
     </Node>
   </Patch>
