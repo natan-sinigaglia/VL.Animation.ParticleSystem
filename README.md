@@ -1,2 +1,2 @@
-# VL.Particles
-CPU based particles system library for VL
+# VL.Animation.ParticleSystem
+CPU based particle system library for VL
