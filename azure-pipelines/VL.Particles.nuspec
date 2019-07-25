@@ -3,13 +3,13 @@
   <metadata>
     <id>VL.Particles</id>
     <version>$version$</version>
-    <title>VL.Particles</title>
+    <title>VL.Animation.ParticleSystem</title>
     <authors>natan.sinigaglia</authors>
     <owners>natan.sinigaglia</owners>
-    <projectUrl>https://github.com/vvvv-dottore/VL.Particles</projectUrl>
+    <projectUrl>https://github.com/vvvv-dottore/VL.Animation.ParticleSystem</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <summary>CPU based particles system library for VL</summary>
-    <description>CPU based particles system library for VL</description>
+    <summary>CPU based particle system library for VL</summary>
+    <description>CPU based particle system library for VL</description>
     <copyright>Copyright © 2019 by Natan Sinigaglia. All rights reserved.</copyright>
     <tags>VL</tags>
   </metadata>
