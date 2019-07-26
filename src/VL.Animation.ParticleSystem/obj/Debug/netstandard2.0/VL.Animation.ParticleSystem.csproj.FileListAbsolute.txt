@@ -1,8 +1,0 @@
-C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Animation.ParticleSystem\bin\Debug\netstandard2.0\VL.Animation.ParticleSystem.deps.json
-C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Animation.ParticleSystem\bin\Debug\netstandard2.0\VL.Animation.ParticleSystem.dll
-C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Animation.ParticleSystem\bin\Debug\netstandard2.0\VL.Animation.ParticleSystem.pdb
-C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Animation.ParticleSystem\obj\Debug\netstandard2.0\VL.Animation.ParticleSystem.csproj.CoreCompileInputs.cache
-C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Animation.ParticleSystem\obj\Debug\netstandard2.0\VL.Animation.ParticleSystem.AssemblyInfoInputs.cache
-C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Animation.ParticleSystem\obj\Debug\netstandard2.0\VL.Animation.ParticleSystem.AssemblyInfo.cs
-C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Animation.ParticleSystem\obj\Debug\netstandard2.0\VL.Animation.ParticleSystem.dll
-C:\Users\conature\Documents\REPOS\VL.Particles\src\VL.Animation.ParticleSystem\obj\Debug\netstandard2.0\VL.Animation.ParticleSystem.pdb
