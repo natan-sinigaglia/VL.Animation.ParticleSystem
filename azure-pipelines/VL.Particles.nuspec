@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
-    <id>VL.Particles</id>
+    <id>VL.Animation.ParticleSystem</id>
     <version>$version$</version>
     <title>VL.Animation.ParticleSystem</title>
     <authors>natan.sinigaglia</authors>
@@ -16,6 +16,6 @@
   <files>
     <file src="..\*.vl" target="" exclude="" />
     <file src="..\**\*.vl" target="" exclude="" />
-    <file src="..\src\VL.Particles\bin\Release\netstandard2.0\VL.Particles.dll" target="" exclude="" />
+    <file src="..\src\VL.Animation.ParticleSystem\bin\Release\netstandard2.0\VL.Animation.ParticleSystem.dll" target="" exclude="" />
   </files>
 </package>
