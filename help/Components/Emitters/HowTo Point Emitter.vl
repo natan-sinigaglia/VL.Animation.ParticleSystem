@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="AYn4Ryg4BtcMkrc6XyPMKV" LanguageVersion="2019.1.0-0428-g0be7813910" Version="0.128">
+<Document xmlns:p="property" Id="AYn4Ryg4BtcMkrc6XyPMKV" LanguageVersion="2019.1.0-0509-g9ecba979a8" Version="0.128">
   <NugetDependency Id="T244Q6a6bqfL4iDIT8fA8g" Location="VL.CoreLib" Version="2019.1.0-425" />
   <Patch Id="FvcJIxY2YPQLfNjFQbwFvt">
     <Canvas Id="OVh8NQEwHdlM2ew2EnVXTe" DefaultCategory="Main" CanvasType="FullCategory" />
@@ -16,11 +16,11 @@
       <Patch Id="SGlORGnEBSVL5syT8RJkej">
         <Canvas Id="LQNQqaihAYfMHxSYjM3M5Z" CanvasType="Group">
           <Node Bounds="187,952,479,19" Id="B6JsugAqgCWLRJp53gSIMi">
-            <p:NodeReference LastCategoryFullName="VL.Particles.Core" LastSymbolSource="VL.Particles.vl">
+            <p:NodeReference LastCategoryFullName="Animation.ParticleSystem" LastSymbolSource="VL.Animation.ParticleSystem.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ParticlesSystem (Wrapper)" />
+              <Choice Kind="ProcessAppFlag" Name="ParticleSystem" />
             </p:NodeReference>
-            <Pin Id="E2hQL2LEkAgMBpgP8O7OQ6" Name="Particles Group" Kind="InputPin" />
+            <Pin Id="R1jIEyh70a5OWuJ3EWAEU1" Name="Particle Group" Kind="InputPin" />
             <Pin Id="SNZiryzdhpLPEWYiet6gM9" Name="Global Components" Kind="InputPin" />
             <Pin Id="PEGkyEFgTwEOwprgydDt6P" Name="Output" Kind="OutputPin" />
           </Node>
@@ -29,7 +29,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="VhEzTUQIaJyOFLPRYz4CPF" Name="Bounds" Kind="InputPin" DefaultValue="1560, 768, 600, 400">
+            <Pin Id="VhEzTUQIaJyOFLPRYz4CPF" Name="Bounds" Kind="InputPin" DefaultValue="1179, 62, 446, 465">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -44,13 +44,13 @@
             <Pin Id="BJmQ006XzlhLjLmQElqTPA" Name="Render Time" Kind="OutputPin" />
           </Node>
           <Node Bounds="186,1075,47,19" Id="Lc9dMH3aL5QLCoYQ21U9jp">
-            <p:NodeReference LastCategoryFullName="VL.Particles.Core" LastSymbolSource="VL.Particles.vl">
+            <p:NodeReference LastCategoryFullName="Animation.ParticleSystem" LastSymbolSource="VL.Animation.ParticleSystem.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="GetParticlesGroup" />
+              <Choice Kind="OperationCallFlag" Name="GetParticleGroup" />
             </p:NodeReference>
             <Pin Id="TselElMaGabPHULtjekuJG" Name="Particles System" Kind="InputPin" />
             <Pin Id="GEYpmQ7qH5FNQJShlNQxDs" Name="Group ID" Kind="InputPin" />
-            <Pin Id="TyGe9fO8On5NHNpln6aneq" Name="Immutable Particles Group" Kind="OutputPin" />
+            <Pin Id="VYbQp8cG0huNNPG5m0EdjR" Name="Particle Group" Kind="OutputPin" />
           </Node>
           <Pad Id="ECDsNPSWwsSLDNYRJx2zwO" Comment="Color" Bounds="207,1270,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0.1043996, 0.18, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
@@ -58,9 +58,9 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="187,714,166,19" Id="OzH2H45SWyONXErOpReSvP">
-            <p:NodeReference LastCategoryFullName="VL.Particles.Core" LastSymbolSource="VL.Particles.vl">
+            <p:NodeReference LastCategoryFullName="Animation.ParticleSystem" LastSymbolSource="VL.Animation.ParticleSystem.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ParticlesGroup" />
+              <Choice Kind="ProcessAppFlag" Name="ParticleGroup" />
             </p:NodeReference>
             <Pin Id="ECnowJfwYrvNDmZKH9i6P0" Name="Name" Kind="InputPin" />
             <Pin Id="TMkJBrbKMaNQZGGncTviYb" Name="Components" Kind="InputPin" />
@@ -68,14 +68,14 @@
             <Pin Id="LDcv8U4NJY3LpTyrSLXpxW" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="348,677,89,19" Id="TkpWm498MftM2z9mk87eeV">
-            <p:NodeReference LastCategoryFullName="VL.Particles.Component.Integrator" LastSymbolSource="VL.Particles.vl">
+            <p:NodeReference LastCategoryFullName="Animation.ParticleSystem.Integrator" LastSymbolSource="VL.Animation.ParticleSystem.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="EulerIntegration" />
             </p:NodeReference>
             <Pin Id="CGe6r5QiDsINjHNn3LAuee" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="268,468,245,19" Id="T8Cg2qo9IR2LceMccXPUey">
-            <p:NodeReference LastCategoryFullName="VL.Particles.Component.Emitter" LastSymbolSource="VL.Particles.vl">
+            <p:NodeReference LastCategoryFullName="Animation.ParticleSystem.Emitter" LastSymbolSource="VL.Animation.ParticleSystem.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="PointEmitter" />
             </p:NodeReference>
@@ -94,7 +94,7 @@
             <Pin Id="EkgjTO85oNOM2uKTyVONWI" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="661,861,39,19" Id="Vxqi9wmbC3jQGykpxoxUwF">
-            <p:NodeReference LastCategoryFullName="VL.Particles.Component.Utils" LastSymbolSource="VL.Particles.vl">
+            <p:NodeReference LastCategoryFullName="Animation.ParticleSystem" LastSymbolSource="VL.Animation.ParticleSystem.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Cons (Component)" />
             </p:NodeReference>
@@ -127,7 +127,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="661,816,38,19" Id="PQtX82YxQqlPIAGRSr1uLF">
-            <p:NodeReference LastCategoryFullName="VL.Particles.Component.Modifier.Behaviour" LastSymbolSource="VL.Particles.vl">
+            <p:NodeReference LastCategoryFullName="Animation.ParticleSystem.Modifier" LastSymbolSource="VL.Animation.ParticleSystem.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Drag" />
             </p:NodeReference>
@@ -175,10 +175,12 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="293,261,82,19" Id="TzsgEBWwR6yLpnbNywj5nw">
-            <p:NodeReference LastCategoryFullName="VL.Particles.Utils.Simplex.Vector2" LastSymbolSource="VL.Particles.vl">
+            <p:NodeReference LastCategoryFullName="Animation.ParticleSystem.Core.Simplex.Vector2" LastSymbolSource="VL.Animation.ParticleSystem.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="SimplexVector" />
-              <FullNameCategoryReference ID="VL.Particles.Utils.Simplex.Vector2" />
+              <CategoryReference Kind="Category" Name="Vector2" NeedsToBeDirectParent="true">
+                <p:OuterCategoryReference Kind="Category" Name="Simplex" NeedsToBeDirectParent="true" />
+              </CategoryReference>
             </p:NodeReference>
             <Pin Id="MYlOlvD4GBgMfcnaXhJIHE" Name="Input" Kind="InputPin" />
             <Pin Id="G7ppc9riKTCPq9CrQT3bQp" Name="Time Offset" Kind="InputPin" />
@@ -249,9 +251,9 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="186,1127,79,19" Id="SB2vDUe7FzSOmOYq2KmTmo">
-            <p:NodeReference LastCategoryFullName="VL.Particles.Draw" LastSymbolSource="VL.Particles.vl">
+            <p:NodeReference LastCategoryFullName="Animation.ParticleSystem.Drawing" LastSymbolSource="VL.Animation.ParticleSystem.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="DrawerCircles" />
+              <Choice Kind="ProcessAppFlag" Name="Circles" />
             </p:NodeReference>
             <Pin Id="T4ZjVj8osoGLFgHSuQbSZa" Name="Input" Kind="InputPin" />
             <Pin Id="RMG4EE8TXunMGk37EiE470" Name="Enabled" Kind="InputPin" />
@@ -281,7 +283,6 @@
           <Fragment Id="PqaNTejL9YsQHJsaAjPdPi" Patch="VOTErjlsw2cLX2P0RRGce6" Enabled="true" />
         </ProcessDefinition>
         <Link Id="DB6stTKIS80QXt3FqAKTdp" Ids="ECDsNPSWwsSLDNYRJx2zwO,Cerox5B8GUJORNqzQO7d79" />
-        <Link Id="Loaa1Z0iGgkPXIH9ejN93Q" Ids="LDcv8U4NJY3LpTyrSLXpxW,E2hQL2LEkAgMBpgP8O7OQ6" />
         <Link Id="BZlAWbzktzNK9pnt4SiAVj" Ids="DslFeSffygEQdxuBBiPggg,NS6EzGCM3PGNAnA4jvDmbu" />
         <Link Id="UIdeaxHmwYbMR5ST4Jc6fP" Ids="OsICHMxdr2bM57BqNdSSH6,IWhlKTTH1gZPlArFzLnQw1" />
         <Link Id="R3yFUYvxfYRQUyZeqRgwCu" Ids="RLjPz717eB8L9seWd5ovgQ,RA5rsPXJoo0Qd62ZqDT47a" />
@@ -304,14 +305,15 @@
         <Link Id="QDtqW328yN4MX97WZtG4KO" Ids="CENHBTukN5kNFx5n3CV4iG,GaDpNSznkJPN9wFwd7WJ89" />
         <Link Id="SOmDsnTVhXHMkRWxx6Wh59" Ids="M0S27V1uXk0OVGbnIxBnVq,HRbWKul6iKUPKyve5hQ1Ow" />
         <Link Id="J9UsSb7bQAPLOlIyT6bFWO" Ids="NiHcgHdnhhVLk8IAbNFEbM,SRy28eyKEyQLoOIWlkLz4L" />
-        <Link Id="GdfgS07TStILbTqsPRMtQa" Ids="TyGe9fO8On5NHNpln6aneq,T4ZjVj8osoGLFgHSuQbSZa" />
         <Link Id="Jva9JPVNoDpOeXSkpmYtHr" Ids="I0hzaep2mCWMa6gnmjihDk,C2S8QXO1paGML8NQhHMLVc" />
         <Link Id="DBWqpBIGBcKOdXQrBSHbnT" Ids="ABxf9GykEiDQXzGTZ2zVDL,CDwhPFfXitJLu3Qa9KQyBr" />
         <Link Id="ATtegguNnRUPKeyqrYskZa" Ids="T5cN4vfkFHYOcho7ODPVyw,MYlOlvD4GBgMfcnaXhJIHE" />
         <Link Id="BGY2GPdDuVkPSu7E0DqNH4" Ids="PEGkyEFgTwEOwprgydDt6P,TselElMaGabPHULtjekuJG" />
+        <Link Id="KdUuCojOfjSNqzwbPlouUj" Ids="VYbQp8cG0huNNPG5m0EdjR,T4ZjVj8osoGLFgHSuQbSZa" />
+        <Link Id="P3j7lqste9tML1Bnoa5q1d" Ids="LDcv8U4NJY3LpTyrSLXpxW,R1jIEyh70a5OWuJ3EWAEU1" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="GrlV98lD5cpP8ie3GShv8y" Location="VL.Skia" Version="2019.1.0-0425-gef454d89b2" />
-  <DocumentDependency Id="FFcSRFCht5KPnqWdwcNkVE" Location="../../../VL.Particles.vl" />
+  <DocumentDependency Id="LFkUOqAmUYQL8bTyZ4hEAV" Location="../../../VL.Animation.ParticleSystem.vl" />
 </Document>
