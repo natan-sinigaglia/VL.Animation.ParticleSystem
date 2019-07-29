@@ -18,7 +18,6 @@ steps:
 - task: MSBuild@1
   inputs:
     solution: 'src/*.sln' 
-    platform: 'AnyCPU'
     configuration: 'Release'
     restoreNugetPackages: true # Optional
     logFileVerbosity: 'minimal' # Optional. Options: quiet, minimal, normal, detailed, diagnostic
