@@ -15,12 +15,15 @@ variables:
   Patch: '1'
 
 steps:
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore' # Options: restore, pack, push, custom
+    restoreSolution: 'src/*.sln' # Required when command == Restore
+
 - task: MSBuild@1
   inputs:
     solution: 'src/*.sln' 
     configuration: 'Release'
-    restoreNugetPackages: true # Optional
-    logFileVerbosity: 'minimal' # Optional. Options: quiet, minimal, normal, detailed, diagnostic
     
 - task: NuGetCommand@2
   displayName: 'NuGet pack'
