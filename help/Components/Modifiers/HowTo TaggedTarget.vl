@@ -29,7 +29,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="VhEzTUQIaJyOFLPRYz4CPF" Name="Bounds" Kind="InputPin" DefaultValue="1180, 64, 600, 400">
+            <Pin Id="VhEzTUQIaJyOFLPRYz4CPF" Name="Bounds" Kind="InputPin" DefaultValue="884, 40, 600, 400">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -233,7 +233,11 @@
                 </p:NodeReference>
                 <Pin Id="SfoOWtAHRuyOndAQL9nVEi" Name="Hue" Kind="InputPin" />
                 <Pin Id="VAn5pAbCm3COTT3mxdpE95" Name="Saturation" Kind="InputPin" />
-                <Pin Id="JCyzPsLjNXnPI7Sh71ZJSe" Name="Value" Kind="InputPin" />
+                <Pin Id="JCyzPsLjNXnPI7Sh71ZJSe" Name="Value" Kind="InputPin">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
                 <Pin Id="PaLlEEOwmVyLD1uziJkMTp" Name="Alpha" Kind="InputPin" />
                 <Pin Id="FVsHCEa71AkLVdl7NtIfAJ" Name="Result" Kind="OutputPin" />
               </Node>
@@ -356,7 +360,7 @@
             <Pin Id="SUsr4SEoxVmP8owUxky2oc" Name="Reset Value" Kind="InputPin" />
             <Pin Id="G0VeekKPJtcMnrGfkPYx98" Name="Value" Kind="OutputPin" />
           </Node>
-          <Pad Id="L4TPVYeJDDxPO5mXMLTFlE" Comment="Offset" Bounds="766,-120,35,15" ShowValueBox="true" isIOBox="true" Value="0.04">
+          <Pad Id="L4TPVYeJDDxPO5mXMLTFlE" Comment="Offset" Bounds="766,-120,35,15" ShowValueBox="true" isIOBox="true" Value="0.15">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
