@@ -16,6 +16,6 @@
   <files>
     <file src="..\*.vl" target="" exclude="" />
     <file src="..\**\*.vl" target="" exclude="" />
-    <file src="..\src\VL.Animation.ParticleSystem\bin\Release\netstandard2.0\VL.Animation.ParticleSystem.dll" target="" exclude="" />
+    <file src="..\src\VL.Animation.ParticleSystem\bin\Release\netstandard2.0\VL.Animation.ParticleSystem.dll" target="lib\netstandard2.0" exclude="" />
   </files>
 </package>
