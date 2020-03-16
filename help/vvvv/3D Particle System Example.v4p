@@ -1,0 +1,217 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha38.2.dtd" >
+   <PATCH nodename="C:\Users\conature\Documents\REPOS\VL.Animation.ParticleSystem\help\vvvv\3D Particle System Example.v4p" systemname="3D Particle System Example" filename="C:\Users\conature\Documents\REPOS\VL.Animation.ParticleSystem\help\vvvv\3D Particle System Example.v4p" scrollx="0" scrolly="-360">
+   <BOUNDS type="Window" left="504" top="256" width="7072" height="9464">
+   </BOUNDS>
+   <NODE systemname="GetParticleGroup (Animation.ParticleSystem 3D)" filename="..\..\VL.Animation.ParticleSystem.vl" nodename="GetParticleGroup (Animation.ParticleSystem 3D)" componentmode="Hidden" id="1">
+   <BOUNDS type="Node" left="2208" top="1856" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Particle Group" visible="1">
+   </PIN>
+   <PIN pinname="Particles System" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Group ID" visible="1">
+   </PIN>
+   <BOUNDS type="Box" left="2208" top="1856">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="ParticleSplit (Animation.ParticleSystem 3D)" filename="..\..\VL.Animation.ParticleSystem.vl" nodename="ParticleSplit (Animation.ParticleSystem 3D)" componentmode="Hidden" id="4">
+   <BOUNDS type="Node" left="2208" top="2536" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Particle" visible="1">
+   </PIN>
+   <PIN pinname="PosXYZ" visible="1">
+   </PIN>
+   <PIN pinname="VelXYZ" visible="1">
+   </PIN>
+   <BOUNDS type="Box" left="2208" top="2536">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="1" srcpinname="Particle Group" dstnodeid="4" dstpinname="Particle">
+   </LINK>
+   <PACK Name="addonpack" Version="38.1.0">
+   </PACK>
+   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="5">
+   <BOUNDS type="Node" left="1512" top="7544" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1512" top="7544" width="2088" height="1568">
+   </BOUNDS>
+   <BOUNDS type="Window" left="1336" top="9656" width="5416" height="4432">
+   </BOUNDS>
+   <PIN pinname="Layers" visible="1">
+   </PIN>
+   <PIN pinname="View" visible="1">
+   </PIN>
+   <PIN pinname="Projection" visible="1">
+   </PIN>
+   <PIN pinname="Fullscreen Depthbuffer Format" slicecount="1" values="D24S8">
+   </PIN>
+   <PIN pinname="Fullscreen Antialiasing Quality Level" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Windowed Depthbuffer Format" slicecount="1" values="D24S8">
+   </PIN>
+   <PIN pinname="Windowed Antialiasing Quality Level" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="6">
+   <BOUNDS type="Node" left="1488" top="7016" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Layer 1" visible="1">
+   </PIN>
+   <PIN pinname="Layer 2" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="6" srcpinname="Layer" dstnodeid="5" dstpinname="Layers">
+   </LINK>
+   <NODE systemname="AxisAndGrid (DX9)" filename="%VVVV%\lib\packs\VL.EditingFramework-2019.1.0-0417-g808f072318\vvvv\nodes\modules\DX9\AxisAndGrid (DX9).v4p" nodename="AxisAndGrid (DX9)" componentmode="Hidden" id="7">
+   <BOUNDS type="Node" left="1040" top="6528" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="7" srcpinname="Layer" dstnodeid="6" dstpinname="Layer 1">
+   </LINK>
+   <NODE systemname="Camera (Transform Orbit)" filename="%VVVV%\lib\packs\VL.EditingFramework-2019.1.0-0417-g808f072318\vvvv\nodes\modules\Camera (Transform Orbit).v4p" nodename="Camera (Transform Orbit)" componentmode="Hidden" id="8">
+   <BOUNDS type="Node" left="2568" top="6968" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="View" visible="1">
+   </PIN>
+   <PIN pinname="Projection" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="View" dstnodeid="5" dstpinname="View">
+   </LINK>
+   <LINK srcnodeid="8" srcpinname="Projection" dstnodeid="5" dstpinname="Projection">
+   </LINK>
+   <NODE systemname="VLParticleSystemPatch (Value)" filename="vl\VVVV.Value.VLParticleSystemPatch.vl" nodename="VLParticleSystemPatch (Value)" componentmode="Hidden" id="10">
+   <BOUNDS type="Node" left="2208" top="776" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <BOUNDS type="Box" left="2208" top="776">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="10" srcpinname="Output" dstnodeid="1" dstpinname="Particles System">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="11">
+   <BOUNDS type="Box" left="3560" top="1480" width="1280" height="224">
+   </BOUNDS>
+   <BOUNDS type="Node" left="3560" top="1480" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="|Particle Group 1|">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="11" srcpinname="Output String" dstnodeid="1" dstpinname="Group ID">
+   </LINK>
+   <NODE systemname="PhongDirectional (EX9.Effect)" filename="%VVVV%\lib\nodes\effects\PhongDirectional.fx" nodename="PhongDirectional (EX9.Effect)" componentmode="Hidden" id="13">
+   <BOUNDS type="Node" left="1768" top="5880" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Mesh" visible="1">
+   </PIN>
+   <PIN pinname="Transform" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="13" srcpinname="Layer" dstnodeid="6" dstpinname="Layer 2">
+   </LINK>
+   <NODE systemname="Box (EX9.Geometry)" nodename="Box (EX9.Geometry)" componentmode="Hidden" id="14">
+   <BOUNDS type="Node" left="1024" top="5344" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Mesh" visible="1">
+   </PIN>
+   <PIN pinname="Width" visible="1">
+   </PIN>
+   <PIN pinname="Depth" visible="1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Height" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="14" srcpinname="Mesh" dstnodeid="13" dstpinname="Mesh">
+   </LINK>
+   <NODE systemname="Transform (Transform 3d Vector)" nodename="Transform (Transform 3d Vector)" componentmode="Hidden" id="15">
+   <BOUNDS type="Node" left="2024" top="4216" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   <PIN pinname="Translate XYZ" visible="1">
+   </PIN>
+   <PIN pinname="Scale XYZ" visible="1">
+   </PIN>
+   <PIN pinname="Rotate XYZ" visible="1" slicecount="150" values="0.192282751202583,-0.585423707962036,-0.5,6.04174470901489,-0.556239724159241,-0.5,-2.22481036186218,-0.443257689476013,-0.5,-9.30162811279297,-0.529971599578857,-0.5,-5.99953508377075,-0.557853877544403,-0.5,-12.8541107177734,-0.578202605247498,-0.5,1.130579829216,-0.562889814376831,-0.5,-0.875017762184143,-0.505035758018494,-0.5,8.19171333312988,-0.537137150764465,-0.5,3.1556613445282,-0.491102486848831,-0.5,7.93357372283935,-0.474698305130005,-0.5,-16.0313835144043,-0.50434809923172,-0.5,-13.7808332443237,-0.572075307369232,-0.5,-4.69729518890381,-0.58826470375061,-0.5,1.29887163639069,-0.510084986686707,-0.5,13.2431678771973,-0.487878561019897,-0.5,0.392506271600723,-0.415410101413727,-0.5,5.59189891815186,-0.471817433834076,-0.5,9.69148921966553,-0.570227801799774,-0.5,2.71487402915955,-0.496444761753082,-0.5,7.71314477920532,-0.492162346839905,-0.5,13.6000299453735,-0.617015957832336,-0.5,-3.14437675476074,-0.545404493808746,-0.5,11.0446062088013,-0.39083531498909,-0.5,5.94413709640503,-0.473573088645935,-0.5,18.7485237121582,-0.546076118946075,-0.5,11.6454067230225,-0.549952387809753,-0.5,15.7400636672974,-0.554984211921692,-0.5,21.868558883667,-0.555437207221985,-0.5,20.8256549835205,-0.577144145965576,-0.5,19.6494750976562,-0.539767980575562,-0.5,15.6875228881836,-0.491938412189484,-0.5,2.79625201225281,-0.447589993476868,-0.5,-3.18909811973572,-0.423142850399017,-0.5,10.9145793914795,-0.382806122303009,-0.5,-0.0704035982489586,-0.363697439432144,-0.5,-0.143393933773041,-0.393470376729965,-0.5,-8.05926322937012,-0.517621874809265,-0.5,3.01354670524597,-0.531595230102539,-0.5,-2.04244232177734,-0.428830623626709,-0.5,1.82034480571747,-0.403134346008301,-0.5,4.85283803939819,-0.456733882427216,-0.5,-4.02201700210571,-0.455359071493149,-0.5,4.02847623825073,-0.403120696544647,-0.5,8.0951976776123,-0.396949589252472,-0.5,-4.84691333770752,-0.443791300058365,-0.5,6.09337949752808,-0.502959251403809,-0.5,1.13184559345245,-0.509919703006744,-0.5,-1.84732615947723,-0.551239848136902,-0.5,-0.83919370174408,-0.552116274833679,-0.5">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="16">
+   <BOUNDS type="Node" left="2400" top="3568" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2400" top="3568" width="696" height="208">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="0.1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="16" srcpinname="Y Output Value" dstnodeid="15" dstpinname="Scale XYZ">
+   </LINK>
+   <LINK srcnodeid="15" srcpinname="Transform Out" dstnodeid="13" dstpinname="Transform">
+   </LINK>
+   <NODE systemname="Polar (3d Vector)" nodename="Polar (3d Vector)" componentmode="Hidden" id="21">
+   <BOUNDS type="Node" left="3736" top="3392" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="XYZ" visible="1">
+   </PIN>
+   <PIN pinname="Pitch" visible="1">
+   </PIN>
+   <PIN pinname="Yaw" visible="1">
+   </PIN>
+   <PIN pinname="Length" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Vector (3d Join)" nodename="Vector (3d Join)" componentmode="Hidden" id="22">
+   <BOUNDS type="Node" left="3736" top="3800" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="Z" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="XYZ" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="21" srcpinname="Pitch" dstnodeid="22" dstpinname="X">
+   </LINK>
+   <LINK srcnodeid="22" srcpinname="XYZ" dstnodeid="15" dstpinname="Rotate XYZ">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="24">
+   <BOUNDS type="Box" left="1040" top="4888" width="696" height="208">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1040" top="4888" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.34">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="24" srcpinname="Y Output Value" dstnodeid="14" dstpinname="Width">
+   </LINK>
+   <LINK srcnodeid="24" srcpinname="Y Output Value" dstnodeid="14" dstpinname="Height">
+   </LINK>
+   <LINK srcnodeid="21" srcpinname="Yaw" dstnodeid="22" dstpinname="Y">
+   </LINK>
+   <LINK srcnodeid="4" srcpinname="VelXYZ" dstnodeid="21" dstpinname="XYZ">
+   </LINK>
+   <LINK srcnodeid="4" srcpinname="PosXYZ" dstnodeid="15" dstpinname="Translate XYZ">
+   </LINK>
+   </PATCH>
